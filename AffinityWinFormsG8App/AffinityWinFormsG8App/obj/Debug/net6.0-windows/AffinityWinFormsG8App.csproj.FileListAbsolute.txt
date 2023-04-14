@@ -1,0 +1,17 @@
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.exe
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.deps.json
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.runtimeconfig.json
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.dll
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.pdb
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.csproj.AssemblyReference.cache
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.AffinityMainForm.resources
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.csproj.GenerateResource.cache
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.AssemblyInfoInputs.cache
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.AssemblyInfo.cs
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.csproj.CoreCompileInputs.cache
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.dll
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\refint\AffinityWinFormsG8App.dll
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.pdb
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.genruntimeconfig.cache
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\ref\AffinityWinFormsG8App.dll
