@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj": {}
+    "C:\\Users\\duran\\Source\\Repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj": {
+    "C:\\Users\\duran\\Source\\Repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj",
+        "projectUniqueName": "C:\\Users\\duran\\Source\\Repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj",
         "projectName": "AffinityWinFormsG8App",
-        "projectPath": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj",
+        "projectPath": "C:\\Users\\duran\\Source\\Repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj",
         "packagesPath": "C:\\Users\\duran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\obj\\",
+        "outputPath": "C:\\Users\\duran\\Source\\Repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duran\\AppData\\Roaming\\NuGet\\NuGet.Config",
