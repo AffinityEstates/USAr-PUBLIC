@@ -15,3 +15,5 @@ C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFor
 C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.pdb
 C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.genruntimeconfig.cache
 C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\ref\AffinityWinFormsG8App.dll
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.dll.config
+C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.Properties.Resources.resources

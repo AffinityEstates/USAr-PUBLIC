@@ -28,7 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            splitContainer1 = new SplitContainer();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.SuspendLayout();
             SuspendLayout();
+            // 
+            // splitContainer1
+            // 
+            splitContainer1.Dock = DockStyle.Fill;
+            splitContainer1.Location = new Point(0, 0);
+            splitContainer1.Name = "splitContainer1";
+            splitContainer1.Size = new Size(354, 338);
+            splitContainer1.SplitterDistance = 118;
+            splitContainer1.TabIndex = 0;
             // 
             // AffinityMainForm
             // 
@@ -36,12 +48,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LimeGreen;
             ClientSize = new Size(354, 338);
+            Controls.Add(splitContainer1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "AffinityMainForm";
             Text = "Welcome to Affinity! ";
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
+
+        private SplitContainer splitContainer1;
     }
 }
