@@ -38,7 +38,7 @@
             ClientSize = new Size(354, 338);
             Margin = new Padding(3, 2, 3, 2);
             Name = "AffinityMainForm";
-            Text = "Form1";
+            Text = "Welcome to Affinity! ";
             ResumeLayout(false);
         }
 
