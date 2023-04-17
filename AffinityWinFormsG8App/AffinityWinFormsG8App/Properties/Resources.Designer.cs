@@ -63,6 +63,26 @@ namespace AffinityWinFormsG8App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Affinity_VR_Logo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Affinity VR Logo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Affinity_VR_Logo__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Affinity VR Logo (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Affinity_World_Thumbnail {
             get {
                 object obj = ResourceManager.GetObject("Affinity World Thumbnail", resourceCulture);

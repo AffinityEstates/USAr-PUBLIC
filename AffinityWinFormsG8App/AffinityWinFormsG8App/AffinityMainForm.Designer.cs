@@ -30,12 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AffinityMainForm));
             splitContainer1 = new SplitContainer();
+            mainBannerPictureBox1 = new PictureBox();
             button1 = new Button();
             textBox1 = new TextBox();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -51,12 +54,26 @@
             // 
             // splitContainer1.Panel2
             // 
+            splitContainer1.Panel2.Controls.Add(button2);
+            splitContainer1.Panel2.Controls.Add(mainBannerPictureBox1);
             splitContainer1.Panel2.Controls.Add(textBox1);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(405, 451);
-            splitContainer1.SplitterDistance = 135;
+            splitContainer1.Size = new Size(948, 605);
+            splitContainer1.SplitterDistance = 126;
             splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 0;
+            // 
+            // mainBannerPictureBox1
+            // 
+            mainBannerPictureBox1.Image = Properties.Resources.Affinity_VR_Logo__1_1;
+            mainBannerPictureBox1.ImageLocation = "";
+            mainBannerPictureBox1.Location = new Point(3, 0);
+            mainBannerPictureBox1.Name = "mainBannerPictureBox1";
+            mainBannerPictureBox1.Size = new Size(814, 500);
+            mainBannerPictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            mainBannerPictureBox1.TabIndex = 1;
+            mainBannerPictureBox1.TabStop = false;
+            mainBannerPictureBox1.WaitOnLoad = true;
             // 
             // button1
             // 
@@ -70,18 +87,27 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(3, 207);
+            textBox1.Location = new Point(216, 506);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(211, 34);
+            textBox1.Size = new Size(296, 34);
             textBox1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(518, 506);
+            button2.Name = "button2";
+            button2.Size = new Size(108, 34);
+            button2.TabIndex = 2;
+            button2.Text = "Submit Chat";
+            button2.UseVisualStyleBackColor = true;
             // 
             // AffinityMainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LimeGreen;
-            ClientSize = new Size(405, 451);
+            ClientSize = new Size(948, 605);
             Controls.Add(splitContainer1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AffinityMainForm";
@@ -91,6 +117,7 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -99,5 +126,7 @@
         private SplitContainer splitContainer1;
         private Button button1;
         private TextBox textBox1;
+        private PictureBox mainBannerPictureBox1;
+        private Button button2;
     }
 }
