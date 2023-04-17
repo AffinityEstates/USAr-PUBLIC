@@ -1,0 +1,88 @@
+4/17/2023 12:19:05 PM	This log contains information about the import schema operation into project 'AffinityDataMart' on computer 'DESKTOP-1M0DNQ3' by user 'duran'.
+4/17/2023 12:19:05 PM	Import of database schema has started.
+4/17/2023 12:19:24 PM	Gathering database credentials
+4/17/2023 12:19:24 PM	Gathering database options
+4/17/2023 12:19:24 PM	Gathering generic database scoped configuration option
+4/17/2023 12:19:24 PM	Gathering users
+4/17/2023 12:19:24 PM	Gathering roles
+4/17/2023 12:19:24 PM	Gathering application roles
+4/17/2023 12:19:24 PM	Gathering role memberships
+4/17/2023 12:19:24 PM	Gathering filegroups
+4/17/2023 12:19:24 PM	Gathering full-text catalogs
+4/17/2023 12:19:24 PM	Gathering assemblies
+4/17/2023 12:19:24 PM	Gathering certificates
+4/17/2023 12:19:24 PM	Gathering asymmetric keys
+4/17/2023 12:19:24 PM	Gathering symmetric keys
+4/17/2023 12:19:24 PM	Gathering encrypted symmetric keys
+4/17/2023 12:19:24 PM	Gathering schemas
+4/17/2023 12:19:24 PM	Gathering XML schema collections
+4/17/2023 12:19:24 PM	Gathering user-defined data types
+4/17/2023 12:19:24 PM	Gathering user-defined types
+4/17/2023 12:19:24 PM	Gathering table types
+4/17/2023 12:19:24 PM	Gathering unique keys for table types
+4/17/2023 12:19:24 PM	Gathering primary keys for table types
+4/17/2023 12:19:26 PM	Gathering indexes for table types
+4/17/2023 12:19:26 PM	Gathering check constraints for table types
+4/17/2023 12:19:26 PM	Gathering default constraints for table types
+4/17/2023 12:19:26 PM	Gathering partition functions
+4/17/2023 12:19:26 PM	Gathering partition schemes
+4/17/2023 12:19:26 PM	Gathering functions
+4/17/2023 12:19:26 PM	Gathering encrypted functions
+4/17/2023 12:19:26 PM	Gathering aggregates
+4/17/2023 12:19:26 PM	Gathering procedures
+4/17/2023 12:19:26 PM	Gathering encrypted procedures
+4/17/2023 12:19:26 PM	Gathering tables
+4/17/2023 12:19:33 PM	Gathering primary keys
+4/17/2023 12:19:33 PM	Gathering unique constraints
+4/17/2023 12:19:33 PM	Gathering foreign keys
+4/17/2023 12:19:33 PM	Gathering default constraints
+4/17/2023 12:19:33 PM	Gathering check constraints
+4/17/2023 12:19:33 PM	Gathering views
+4/17/2023 12:19:33 PM	Gathering encrypted views
+4/17/2023 12:19:33 PM	Gathering indexes
+4/17/2023 12:19:33 PM	Gathering statistics
+4/17/2023 12:19:33 PM	Gathering full-text index stoplists
+4/17/2023 12:19:33 PM	Gathering search property lists
+4/17/2023 12:19:33 PM	Gathering search properties
+4/17/2023 12:19:33 PM	Gathering full-text indexes
+4/17/2023 12:19:33 PM	Gathering column store indexes
+4/17/2023 12:19:33 PM	Gathering spatial indexes
+4/17/2023 12:19:33 PM	Gathering XML indexes
+4/17/2023 12:19:33 PM	Gathering Selective XML indexes
+4/17/2023 12:19:33 PM	Gathering encrypted triggers
+4/17/2023 12:19:33 PM	Gathering triggers
+4/17/2023 12:19:33 PM	Gathering encrypted and clr ddl triggers
+4/17/2023 12:19:33 PM	Gathering ddl triggers
+4/17/2023 12:19:33 PM	Creating edge constraints
+4/17/2023 12:19:33 PM	Gathering synonyms
+4/17/2023 12:19:33 PM	Gathering defaults
+4/17/2023 12:19:33 PM	Gathering data constraint uddt bindings
+4/17/2023 12:19:33 PM	Gathering rules
+4/17/2023 12:19:33 PM	Gathering data constraint uddt bindings
+4/17/2023 12:19:33 PM	Gathering message types
+4/17/2023 12:19:33 PM	Gathering queues
+4/17/2023 12:19:33 PM	Gathering contracts
+4/17/2023 12:19:33 PM	Gathering services
+4/17/2023 12:19:33 PM	Gathering event notifications
+4/17/2023 12:19:33 PM	Gathering remote service bindings
+4/17/2023 12:19:33 PM	Gathering broker priorities
+4/17/2023 12:19:33 PM	Gathering signatures
+4/17/2023 12:19:33 PM	Gathering compression options
+4/17/2023 12:19:33 PM	Gathering sequence types
+4/17/2023 12:19:33 PM	Gathering security policies
+4/17/2023 12:19:33 PM	Gather column encryption keys
+4/17/2023 12:19:33 PM	Gathering column master keys
+4/17/2023 12:19:33 PM	Gathering external data sources
+4/17/2023 12:19:33 PM	Gathering external file formats
+4/17/2023 12:19:33 PM	Gathering external tables
+4/17/2023 12:19:33 PM	Gathering XML index compression options
+4/17/2023 12:19:33 PM	Gathering extended properties
+4/17/2023 12:19:34 PM	Gathering assemblies
+4/17/2023 12:19:34 PM	Gathering credentials
+4/17/2023 12:19:34 PM	Gathering logins
+4/17/2023 12:19:34 PM	Gathering server audits
+4/17/2023 12:19:34 PM	Scanning project for duplicate elements
+4/17/2023 12:19:34 PM	Finished duplicate element processing
+4/17/2023 12:19:35 PM	Finished importing database.
+4/17/2023 12:19:35 PM	A summary of the import was saved to the following location: C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityDataMart\AffinityDataMart\Import Schema Logs\AffinityDataMart_20230417041905.log
+4/17/2023 12:19:35 PM	Click Finish to continue...
