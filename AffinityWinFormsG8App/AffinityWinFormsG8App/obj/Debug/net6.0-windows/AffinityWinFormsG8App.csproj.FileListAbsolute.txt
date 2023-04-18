@@ -20,3 +20,4 @@ C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFor
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\ChatGPT.Net.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.csproj.CopyComplete
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.Forms.ConfigAPIKeyModalForm.resources
