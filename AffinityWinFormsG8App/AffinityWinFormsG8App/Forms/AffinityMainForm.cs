@@ -8,6 +8,7 @@
 
 using System.Configuration;
 using System.Diagnostics;
+using System.Media;
 using AffinityWinFormsG8App.Forms;
 using AffinityWinFormsG8App.Models;
 
@@ -49,11 +50,19 @@ namespace AffinityWinFormsG8App
         {
             // handle chat bot here!
             tbChatOutput.Clear();
-            await ChatBot.setChatBotResponseAsync(textBox1.Text, tbApi.Text);
-            tbChatOutput.Text = ChatBot.ChatBotResponse;
-            //tbChatOutput.Refresh();
+            using (var soundPlayer = new SoundPlayer(@"c:\Windows\Media\chimes.wav"))
+            {
+                soundPlayer.Play(); // can also use soundPlayer.PlaySync()
+            }
+
+            await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
+            tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
+
+            tbChatInput.Clear();
             splitContainer1.Refresh();
             Refresh();
+
+            tbChatInput.Focus();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -70,6 +79,46 @@ namespace AffinityWinFormsG8App
         {
             Form apiForm = new ConfigAPIKeyModalForm();
             apiForm.Show();
+        }
+
+        private void btnKy_Click(object sender, EventArgs e)
+        {
+            // TODO: Fix accessing config file!
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://oculus.com/vr/5565755033439642/",
+                UseShellExecute = true
+            });
+        }
+
+        private void btnMich_Click(object sender, EventArgs e)
+        {
+            // TODO: Fix accessing config file!
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://oculus.com/vr/4369207463185527/",
+                UseShellExecute = true
+            });
+        }
+
+        private void btnTenn_Click(object sender, EventArgs e)
+        {
+            // TODO: Fix accessing config file!
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://oculus.com/vr/8081789058501624/",
+                UseShellExecute = true
+            });
+        }
+
+        private void btnIllinoiis_Click(object sender, EventArgs e)
+        {
+            // TODO: Fix accessing config file!
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://oculus.com/vr/5832979190063128/",
+                UseShellExecute = true
+            });
         }
     }
 }

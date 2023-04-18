@@ -103,9 +103,29 @@ namespace AffinityWinFormsG8App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kentucky_map_icon_414223723 {
+            get {
+                object obj = ResourceManager.GetObject("kentucky-map-icon-414223723", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap key_icon_png_20_2507228831 {
             get {
                 object obj = ResourceManager.GetObject("key-icon-png-20-2507228831", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SUBMIT_BUTTON_4072490582 {
+            get {
+                object obj = ResourceManager.GetObject("SUBMIT-BUTTON-4072490582", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
