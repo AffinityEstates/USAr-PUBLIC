@@ -30,10 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AffinityMainForm));
             splitContainer1 = new SplitContainer();
-            mainBannerPictureBox1 = new PictureBox();
+            lblChatResponse = new Label();
+            button3 = new Button();
+            button2 = new Button();
             button1 = new Button();
             textBox1 = new TextBox();
-            button2 = new Button();
+            mainBannerPictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -50,18 +52,72 @@
             // 
             // splitContainer1.Panel1
             // 
+            splitContainer1.Panel1.BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
+            splitContainer1.Panel1.Controls.Add(lblChatResponse);
+            splitContainer1.Panel1.Controls.Add(button3);
+            splitContainer1.Panel1.Controls.Add(button2);
             splitContainer1.Panel1.Controls.Add(button1);
+            splitContainer1.Panel1.Controls.Add(textBox1);
             // 
             // splitContainer1.Panel2
             // 
-            splitContainer1.Panel2.Controls.Add(button2);
             splitContainer1.Panel2.Controls.Add(mainBannerPictureBox1);
-            splitContainer1.Panel2.Controls.Add(textBox1);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(948, 605);
-            splitContainer1.SplitterDistance = 126;
+            splitContainer1.Size = new Size(952, 505);
+            splitContainer1.SplitterDistance = 139;
             splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 0;
+            // 
+            // lblChatResponse
+            // 
+            lblChatResponse.AutoSize = true;
+            lblChatResponse.Location = new Point(2, 359);
+            lblChatResponse.Name = "lblChatResponse";
+            lblChatResponse.Size = new Size(0, 20);
+            lblChatResponse.TabIndex = 4;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(12, 57);
+            button3.Name = "button3";
+            button3.Size = new Size(109, 29);
+            button3.TabIndex = 3;
+            button3.Text = "Roblox";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(3, 444);
+            button2.Name = "button2";
+            button2.Size = new Size(118, 34);
+            button2.TabIndex = 2;
+            button2.Text = "Submit Chat";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.BackgroundImage = Properties.Resources.Affinity_World_Thumbnail;
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
+            button1.Cursor = Cursors.PanNW;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(12, 22);
+            button1.Name = "button1";
+            button1.Size = new Size(109, 29);
+            button1.TabIndex = 0;
+            button1.Text = "Enter Oculus";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(3, 382);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(118, 56);
+            textBox1.TabIndex = 0;
             // 
             // mainBannerPictureBox1
             // 
@@ -75,46 +131,23 @@
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
             // 
-            // button1
-            // 
-            button1.Location = new Point(12, 22);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 29);
-            button1.TabIndex = 0;
-            button1.Text = "Enter Oculus";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(216, 506);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(296, 34);
-            textBox1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(518, 506);
-            button2.Name = "button2";
-            button2.Size = new Size(108, 34);
-            button2.TabIndex = 2;
-            button2.Text = "Submit Chat";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // AffinityMainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LimeGreen;
-            ClientSize = new Size(948, 605);
+            BackColor = Color.Aqua;
+            BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
+            BackgroundImageLayout = ImageLayout.Center;
+            ClientSize = new Size(952, 505);
             Controls.Add(splitContainer1);
+            Cursor = Cursors.Hand;
+            DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AffinityMainForm";
             Text = "Welcome to Affinity! ";
             splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel1.PerformLayout();
             splitContainer1.Panel2.ResumeLayout(false);
-            splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
@@ -128,5 +161,7 @@
         private TextBox textBox1;
         private PictureBox mainBannerPictureBox1;
         private Button button2;
+        private Button button3;
+        private Label lblChatResponse;
     }
 }
