@@ -7,6 +7,8 @@
  * */
 
 using System.Configuration;
+using System.Diagnostics;
+using AffinityWinFormsG8App.Models;
 
 namespace AffinityWinFormsG8App
 {
@@ -35,6 +37,31 @@ namespace AffinityWinFormsG8App
 
             // TODO: Fix accessing config file!
             // System.Diagnostics.Process.Start(ConfigurationManager.AppSettings["mainAffinityURL"]);
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://www.affinityestates.us",
+                UseShellExecute = true
+            });
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // handle chat bot here!
+            tbChatOutput.Clear();
+            ChatBot.setChatBotResponseAsync(textBox1.Text);
+            tbChatOutput.Text = ChatBot.ChatBotResponse;
+            tbChatOutput.Refresh();
+            splitContainer1.Refresh();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // TODO: Fix accessing config file!
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://www.roblox.com/games/10383092478/Willow-Wonderland-Super-Obby-and-Racetrack",
+                UseShellExecute = true
+            });
         }
     }
 }

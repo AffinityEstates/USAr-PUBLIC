@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8pbwcwe2SFSGE5W5+BaA1LMO/qO81MnqHl9N+0cwotS9xVnlpjMkLaNCRpuVghzEXkDQa3TDCVmfkYiivzO7UQ==",
+  "dgSpecHash": "GLnZlRfQOvK6i/LNxTocBR0APFQA9CKo02EofXTuFWQiNVfZTqL0+Ccew+BIhgLDB9DdSGk1yM/EhylHfkeO3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\duran\\.nuget\\packages\\chatgpt.net\\2.0.0\\chatgpt.net.2.0.0.nupkg.sha512",
+    "C:\\Users\\duran\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

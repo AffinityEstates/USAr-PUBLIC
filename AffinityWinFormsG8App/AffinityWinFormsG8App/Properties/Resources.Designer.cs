@@ -89,5 +89,15 @@ namespace AffinityWinFormsG8App.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chatgpt_logo_header_banner_345686558 {
+            get {
+                object obj = ResourceManager.GetObject("chatgpt-logo-header-banner-345686558", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
