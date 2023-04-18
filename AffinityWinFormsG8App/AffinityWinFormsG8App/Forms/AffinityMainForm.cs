@@ -49,11 +49,14 @@ namespace AffinityWinFormsG8App
         {
             // handle chat bot here!
             tbChatOutput.Clear();
-            await ChatBot.setChatBotResponseAsync(textBox1.Text, tbApi.Text);
-            tbChatOutput.Text = ChatBot.ChatBotResponse;
+            await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
+            tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
+
+            tbChatInput.Clear();
             //tbChatOutput.Refresh();
             splitContainer1.Refresh();
             Refresh();
+            tbChatInput.Focus();
         }
 
         private void button3_Click(object sender, EventArgs e)
