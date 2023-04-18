@@ -39,6 +39,10 @@
             button2 = new Button();
             button1 = new Button();
             tbChatInput = new TextBox();
+            btnIllinoiis = new Button();
+            btnTenn = new Button();
+            btnMich = new Button();
+            btnKy = new Button();
             mainBannerPictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -71,10 +75,14 @@
             // 
             // splitContainer1.Panel2
             // 
+            splitContainer1.Panel2.Controls.Add(btnIllinoiis);
+            splitContainer1.Panel2.Controls.Add(btnTenn);
+            splitContainer1.Panel2.Controls.Add(btnMich);
+            splitContainer1.Panel2.Controls.Add(btnKy);
             splitContainer1.Panel2.Controls.Add(mainBannerPictureBox1);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(952, 505);
-            splitContainer1.SplitterDistance = 305;
+            splitContainer1.Size = new Size(1221, 505);
+            splitContainer1.SplitterDistance = 391;
             splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 0;
             // 
@@ -100,7 +108,7 @@
             // 
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
-            pictureBox1.Location = new Point(96, 257);
+            pictureBox1.Location = new Point(145, 257);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(109, 32);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -109,6 +117,7 @@
             // 
             // tbChatOutput
             // 
+            tbChatOutput.BackColor = Color.PaleTurquoise;
             tbChatOutput.BorderStyle = BorderStyle.FixedSingle;
             tbChatOutput.Cursor = Cursors.PanNW;
             tbChatOutput.Enabled = false;
@@ -116,7 +125,7 @@
             tbChatOutput.Location = new Point(3, 295);
             tbChatOutput.Multiline = true;
             tbChatOutput.Name = "tbChatOutput";
-            tbChatOutput.Size = new Size(299, 187);
+            tbChatOutput.Size = new Size(385, 187);
             tbChatOutput.TabIndex = 5;
             // 
             // lblChatResponse
@@ -139,18 +148,19 @@
             // 
             // button2
             // 
+            button2.BackColor = Color.Transparent;
+            button2.BackgroundImage = Properties.Resources.SUBMIT_BUTTON_4072490582;
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Location = new Point(136, 168);
             button2.Name = "button2";
             button2.Size = new Size(118, 34);
             button2.TabIndex = 2;
-            button2.Text = "Submit Chat";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button1
             // 
-            button1.BackColor = Color.Transparent;
-            button1.BackgroundImage = Properties.Resources.Affinity_World_Thumbnail;
+            button1.BackColor = Color.IndianRed;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Cursor = Cursors.PanNW;
             button1.FlatStyle = FlatStyle.Flat;
@@ -169,6 +179,54 @@
             tbChatInput.Name = "tbChatInput";
             tbChatInput.Size = new Size(118, 56);
             tbChatInput.TabIndex = 0;
+            // 
+            // btnIllinoiis
+            // 
+            btnIllinoiis.BackColor = Color.Transparent;
+            btnIllinoiis.BackgroundImage = (Image)resources.GetObject("btnIllinoiis.BackgroundImage");
+            btnIllinoiis.BackgroundImageLayout = ImageLayout.Stretch;
+            btnIllinoiis.Location = new Point(513, 3);
+            btnIllinoiis.Name = "btnIllinoiis";
+            btnIllinoiis.Size = new Size(90, 83);
+            btnIllinoiis.TabIndex = 5;
+            btnIllinoiis.UseVisualStyleBackColor = false;
+            btnIllinoiis.Click += btnIllinoiis_Click;
+            // 
+            // btnTenn
+            // 
+            btnTenn.BackColor = Color.Transparent;
+            btnTenn.BackgroundImage = (Image)resources.GetObject("btnTenn.BackgroundImage");
+            btnTenn.BackgroundImageLayout = ImageLayout.Stretch;
+            btnTenn.Location = new Point(417, 3);
+            btnTenn.Name = "btnTenn";
+            btnTenn.Size = new Size(90, 83);
+            btnTenn.TabIndex = 4;
+            btnTenn.UseVisualStyleBackColor = false;
+            btnTenn.Click += btnTenn_Click;
+            // 
+            // btnMich
+            // 
+            btnMich.BackColor = Color.Transparent;
+            btnMich.BackgroundImage = (Image)resources.GetObject("btnMich.BackgroundImage");
+            btnMich.BackgroundImageLayout = ImageLayout.Stretch;
+            btnMich.Location = new Point(321, 3);
+            btnMich.Name = "btnMich";
+            btnMich.Size = new Size(90, 83);
+            btnMich.TabIndex = 3;
+            btnMich.UseVisualStyleBackColor = false;
+            btnMich.Click += btnMich_Click;
+            // 
+            // btnKy
+            // 
+            btnKy.BackColor = Color.Transparent;
+            btnKy.BackgroundImage = Properties.Resources.kentucky_map_icon_414223723;
+            btnKy.BackgroundImageLayout = ImageLayout.Stretch;
+            btnKy.Location = new Point(225, 3);
+            btnKy.Name = "btnKy";
+            btnKy.Size = new Size(90, 83);
+            btnKy.TabIndex = 2;
+            btnKy.UseVisualStyleBackColor = false;
+            btnKy.Click += btnKy_Click;
             // 
             // mainBannerPictureBox1
             // 
@@ -189,7 +247,7 @@
             BackColor = Color.Aqua;
             BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(952, 505);
+            ClientSize = new Size(1221, 505);
             Controls.Add(splitContainer1);
             Cursor = Cursors.Hand;
             DoubleBuffered = true;
@@ -220,5 +278,9 @@
         private TextBox tbChatOutput;
         private TextBox tbApi;
         private PictureBox pictureBox2;
+        private Button btnMich;
+        private Button btnKy;
+        private Button btnIllinoiis;
+        private Button btnTenn;
     }
 }
