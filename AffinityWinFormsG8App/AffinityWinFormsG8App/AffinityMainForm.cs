@@ -47,8 +47,11 @@ namespace AffinityWinFormsG8App
         private void button2_Click(object sender, EventArgs e)
         {
             // handle chat bot here!
-            ChatBot.setChatBotResponse();
-            lblChatResponse.Text = ChatBot.ChatBotResponse;
+            tbChatOutput.Clear();
+            ChatBot.setChatBotResponseAsync(textBox1.Text);
+            tbChatOutput.Text = ChatBot.ChatBotResponse;
+            tbChatOutput.Refresh();
+            splitContainer1.Refresh();
         }
 
         private void button3_Click(object sender, EventArgs e)

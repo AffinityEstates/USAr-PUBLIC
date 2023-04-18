@@ -36,11 +36,14 @@
             button1 = new Button();
             textBox1 = new TextBox();
             mainBannerPictureBox1 = new PictureBox();
+            tbChatOutput = new TextBox();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -53,6 +56,8 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
+            splitContainer1.Panel1.Controls.Add(pictureBox1);
+            splitContainer1.Panel1.Controls.Add(tbChatOutput);
             splitContainer1.Panel1.Controls.Add(lblChatResponse);
             splitContainer1.Panel1.Controls.Add(button3);
             splitContainer1.Panel1.Controls.Add(button2);
@@ -88,7 +93,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(3, 444);
+            button2.Location = new Point(12, 217);
             button2.Name = "button2";
             button2.Size = new Size(118, 34);
             button2.TabIndex = 2;
@@ -113,7 +118,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(3, 382);
+            textBox1.Location = new Point(12, 155);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(118, 56);
@@ -130,6 +135,28 @@
             mainBannerPictureBox1.TabIndex = 1;
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
+            // 
+            // tbChatOutput
+            // 
+            tbChatOutput.BorderStyle = BorderStyle.FixedSingle;
+            tbChatOutput.Cursor = Cursors.PanNW;
+            tbChatOutput.Enabled = false;
+            tbChatOutput.Location = new Point(3, 335);
+            tbChatOutput.Multiline = true;
+            tbChatOutput.Name = "tbChatOutput";
+            tbChatOutput.Size = new Size(133, 147);
+            tbChatOutput.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
+            pictureBox1.Location = new Point(12, 297);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(109, 32);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
             // AffinityMainForm
             // 
@@ -151,6 +178,7 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -163,5 +191,7 @@
         private Button button2;
         private Button button3;
         private Label lblChatResponse;
+        private PictureBox pictureBox1;
+        private TextBox tbChatOutput;
     }
 }

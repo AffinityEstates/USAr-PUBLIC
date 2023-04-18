@@ -17,3 +17,6 @@ C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFor
 C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\ref\AffinityWinFormsG8App.dll
 C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\AffinityWinFormsG8App.dll.config
 C:\Users\duran\Source\Repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.Properties.Resources.resources
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\ChatGPT.Net.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.csproj.CopyComplete
