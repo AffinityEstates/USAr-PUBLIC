@@ -8,6 +8,7 @@
 
 using System.Configuration;
 using System.Diagnostics;
+using AffinityWinFormsG8App.Forms;
 using AffinityWinFormsG8App.Models;
 
 namespace AffinityWinFormsG8App
@@ -44,14 +45,15 @@ namespace AffinityWinFormsG8App
             });
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private async void button2_Click(object sender, EventArgs e)
         {
             // handle chat bot here!
             tbChatOutput.Clear();
-            ChatBot.setChatBotResponseAsync(textBox1.Text);
+            await ChatBot.setChatBotResponseAsync(textBox1.Text, tbApi.Text);
             tbChatOutput.Text = ChatBot.ChatBotResponse;
-            tbChatOutput.Refresh();
+            //tbChatOutput.Refresh();
             splitContainer1.Refresh();
+            Refresh();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -62,6 +64,12 @@ namespace AffinityWinFormsG8App
                 FileName = "https://www.roblox.com/games/10383092478/Willow-Wonderland-Super-Obby-and-Racetrack",
                 UseShellExecute = true
             });
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form apiForm = new ConfigAPIKeyModalForm();
+            apiForm.Show();
         }
     }
 }

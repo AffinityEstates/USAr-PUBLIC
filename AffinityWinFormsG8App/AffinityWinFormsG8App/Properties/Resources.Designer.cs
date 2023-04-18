@@ -99,5 +99,15 @@ namespace AffinityWinFormsG8App.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap key_icon_png_20_2507228831 {
+            get {
+                object obj = ResourceManager.GetObject("key-icon-png-20-2507228831", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

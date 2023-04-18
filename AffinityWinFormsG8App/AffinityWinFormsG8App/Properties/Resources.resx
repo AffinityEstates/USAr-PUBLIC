@@ -121,13 +121,16 @@
   <data name="Affinity World Thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Affinity World Thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Affinity VR Logo (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Affinity VR Logo (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chatgpt-logo-header-banner-345686558" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chatgpt-logo-header-banner-345686558.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Affinity VR Logo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Affinity VR Logo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chatgpt-logo-header-banner-345686558" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chatgpt-logo-header-banner-345686558.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Affinity VR Logo (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Affinity VR Logo (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key-icon-png-20-2507228831" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key-icon-png-20-2507228831.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
