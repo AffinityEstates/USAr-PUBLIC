@@ -39,21 +39,22 @@
             button2 = new Button();
             button1 = new Button();
             tbChatInput = new TextBox();
+            panel1 = new Panel();
+            btnLockedTab = new Button();
             btnIllinoiis = new Button();
             btnTenn = new Button();
             btnMich = new Button();
             btnKy = new Button();
             mainBannerPictureBox1 = new PictureBox();
-            panel1 = new Panel();
-            btnLockedTab = new Button();
+            btnGotoAdmin = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -184,6 +185,28 @@
             tbChatInput.Size = new Size(118, 56);
             tbChatInput.TabIndex = 0;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.Controls.Add(btnGotoAdmin);
+            panel1.Controls.Add(btnLockedTab);
+            panel1.Location = new Point(18, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(784, 58);
+            panel1.TabIndex = 6;
+            // 
+            // btnLockedTab
+            // 
+            btnLockedTab.BackColor = Color.Transparent;
+            btnLockedTab.BackgroundImage = (Image)resources.GetObject("btnLockedTab.BackgroundImage");
+            btnLockedTab.BackgroundImageLayout = ImageLayout.Stretch;
+            btnLockedTab.Location = new Point(48, 9);
+            btnLockedTab.Name = "btnLockedTab";
+            btnLockedTab.Size = new Size(42, 44);
+            btnLockedTab.TabIndex = 7;
+            btnLockedTab.UseVisualStyleBackColor = false;
+            btnLockedTab.Click += btnLockedTab_Click;
+            // 
             // btnIllinoiis
             // 
             btnIllinoiis.BackColor = Color.Transparent;
@@ -244,26 +267,17 @@
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
             // 
-            // panel1
+            // btnGotoAdmin
             // 
-            panel1.BackColor = SystemColors.MenuHighlight;
-            panel1.Controls.Add(btnLockedTab);
-            panel1.Location = new Point(18, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(784, 58);
-            panel1.TabIndex = 6;
-            // 
-            // btnLockedTab
-            // 
-            btnLockedTab.BackColor = Color.Transparent;
-            btnLockedTab.BackgroundImage = (Image)resources.GetObject("btnLockedTab.BackgroundImage");
-            btnLockedTab.BackgroundImageLayout = ImageLayout.Stretch;
-            btnLockedTab.Location = new Point(48, 9);
-            btnLockedTab.Name = "btnLockedTab";
-            btnLockedTab.Size = new Size(42, 44);
-            btnLockedTab.TabIndex = 7;
-            btnLockedTab.UseVisualStyleBackColor = false;
-            btnLockedTab.Click += btnLockedTab_Click;
+            btnGotoAdmin.BackColor = Color.Transparent;
+            btnGotoAdmin.BackgroundImage = (Image)resources.GetObject("btnGotoAdmin.BackgroundImage");
+            btnGotoAdmin.BackgroundImageLayout = ImageLayout.Stretch;
+            btnGotoAdmin.Location = new Point(371, 7);
+            btnGotoAdmin.Name = "btnGotoAdmin";
+            btnGotoAdmin.Size = new Size(42, 44);
+            btnGotoAdmin.TabIndex = 8;
+            btnGotoAdmin.UseVisualStyleBackColor = false;
+            btnGotoAdmin.Click += btnGotoAdmin_Click;
             // 
             // AffinityMainForm
             // 
@@ -286,8 +300,8 @@
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -310,5 +324,6 @@
         private Button btnTenn;
         private Panel panel1;
         private Button btnLockedTab;
+        private Button btnGotoAdmin;
     }
 }
