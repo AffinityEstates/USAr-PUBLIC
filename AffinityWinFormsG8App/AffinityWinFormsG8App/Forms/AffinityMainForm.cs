@@ -52,7 +52,7 @@ namespace AffinityWinFormsG8App
             tbChatOutput.Clear();
             using (var soundPlayer = new SoundPlayer(@"c:\Windows\Media\chimes.wav"))
             {
-                soundPlayer.Play(); // can also use soundPlayer.PlaySync()
+                soundPlayer.Play();
             }
 
             await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
@@ -119,6 +119,11 @@ namespace AffinityWinFormsG8App
                 FileName = "https://oculus.com/vr/5832979190063128/",
                 UseShellExecute = true
             });
+        }
+
+        private void btnLockedTab_Click(object sender, EventArgs e)
+        {
+            // TODO: Handle locked feature logic here
         }
     }
 }
