@@ -125,5 +125,12 @@ namespace AffinityWinFormsG8App
         {
             // TODO: Handle locked feature logic here
         }
+
+        private void btnGotoAdmin_Click(object sender, EventArgs e)
+        {
+            // Goto Admin screen
+            AdminForm admin = new AdminForm();
+            admin.Show();
+        }
     }
 }
