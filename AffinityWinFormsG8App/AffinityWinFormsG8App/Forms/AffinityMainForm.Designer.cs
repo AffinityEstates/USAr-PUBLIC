@@ -44,6 +44,8 @@
             btnMich = new Button();
             btnKy = new Button();
             mainBannerPictureBox1 = new PictureBox();
+            panel1 = new Panel();
+            btnLockedTab = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -51,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -75,6 +78,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Panel2.Controls.Add(btnIllinoiis);
             splitContainer1.Panel2.Controls.Add(btnTenn);
             splitContainer1.Panel2.Controls.Add(btnMich);
@@ -151,7 +155,7 @@
             button2.BackColor = Color.Transparent;
             button2.BackgroundImage = Properties.Resources.SUBMIT_BUTTON_4072490582;
             button2.BackgroundImageLayout = ImageLayout.Stretch;
-            button2.Location = new Point(136, 168);
+            button2.Location = new Point(136, 158);
             button2.Name = "button2";
             button2.Size = new Size(118, 34);
             button2.TabIndex = 2;
@@ -174,7 +178,7 @@
             // 
             // tbChatInput
             // 
-            tbChatInput.Location = new Point(12, 155);
+            tbChatInput.Location = new Point(12, 146);
             tbChatInput.Multiline = true;
             tbChatInput.Name = "tbChatInput";
             tbChatInput.Size = new Size(118, 56);
@@ -185,7 +189,7 @@
             btnIllinoiis.BackColor = Color.Transparent;
             btnIllinoiis.BackgroundImage = (Image)resources.GetObject("btnIllinoiis.BackgroundImage");
             btnIllinoiis.BackgroundImageLayout = ImageLayout.Stretch;
-            btnIllinoiis.Location = new Point(513, 3);
+            btnIllinoiis.Location = new Point(712, 388);
             btnIllinoiis.Name = "btnIllinoiis";
             btnIllinoiis.Size = new Size(90, 83);
             btnIllinoiis.TabIndex = 5;
@@ -197,7 +201,7 @@
             btnTenn.BackColor = Color.Transparent;
             btnTenn.BackgroundImage = (Image)resources.GetObject("btnTenn.BackgroundImage");
             btnTenn.BackgroundImageLayout = ImageLayout.Stretch;
-            btnTenn.Location = new Point(417, 3);
+            btnTenn.Location = new Point(712, 246);
             btnTenn.Name = "btnTenn";
             btnTenn.Size = new Size(90, 83);
             btnTenn.TabIndex = 4;
@@ -209,7 +213,7 @@
             btnMich.BackColor = Color.Transparent;
             btnMich.BackgroundImage = (Image)resources.GetObject("btnMich.BackgroundImage");
             btnMich.BackgroundImageLayout = ImageLayout.Stretch;
-            btnMich.Location = new Point(321, 3);
+            btnMich.Location = new Point(18, 246);
             btnMich.Name = "btnMich";
             btnMich.Size = new Size(90, 83);
             btnMich.TabIndex = 3;
@@ -221,7 +225,7 @@
             btnKy.BackColor = Color.Transparent;
             btnKy.BackgroundImage = Properties.Resources.kentucky_map_icon_414223723;
             btnKy.BackgroundImageLayout = ImageLayout.Stretch;
-            btnKy.Location = new Point(225, 3);
+            btnKy.Location = new Point(18, 388);
             btnKy.Name = "btnKy";
             btnKy.Size = new Size(90, 83);
             btnKy.TabIndex = 2;
@@ -239,6 +243,27 @@
             mainBannerPictureBox1.TabIndex = 1;
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.Controls.Add(btnLockedTab);
+            panel1.Location = new Point(18, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(784, 58);
+            panel1.TabIndex = 6;
+            // 
+            // btnLockedTab
+            // 
+            btnLockedTab.BackColor = Color.Transparent;
+            btnLockedTab.BackgroundImage = (Image)resources.GetObject("btnLockedTab.BackgroundImage");
+            btnLockedTab.BackgroundImageLayout = ImageLayout.Stretch;
+            btnLockedTab.Location = new Point(48, 9);
+            btnLockedTab.Name = "btnLockedTab";
+            btnLockedTab.Size = new Size(42, 44);
+            btnLockedTab.TabIndex = 7;
+            btnLockedTab.UseVisualStyleBackColor = false;
+            btnLockedTab.Click += btnLockedTab_Click;
             // 
             // AffinityMainForm
             // 
@@ -262,6 +287,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -282,5 +308,7 @@
         private Button btnKy;
         private Button btnIllinoiis;
         private Button btnTenn;
+        private Panel panel1;
+        private Button btnLockedTab;
     }
 }
