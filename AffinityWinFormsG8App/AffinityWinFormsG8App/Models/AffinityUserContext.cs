@@ -40,8 +40,8 @@ namespace AffinityWinFormsG8App.Models
                 new AffinityUser { UserId = 11, CategoryId = 2, UserName = "Ham" },
                 new AffinityUser { UserId = 29, CategoryId = 3, UserName = "Malted" },
                 new AffinityUser { UserId = 30, CategoryId = 3, UserName = "Sourdough" },
-                new AffinityUser { UserId = 31, CategoryId = 4, UserName = "Corn" },
-                new AffinityUser { UserId = 32, CategoryId = 4, UserName = "White22" },
+                new AffinityUser { UserId = 31, CategoryId = 3, UserName = "Corn" },
+                new AffinityUser { UserId = 32, CategoryId = 3, UserName = "White22" },
                 new AffinityUser { UserId = 33, CategoryId = 4, UserName = "Admin" });
         }
     }
