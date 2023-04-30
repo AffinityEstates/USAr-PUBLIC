@@ -15,7 +15,6 @@ namespace AffinityWinFormsG8App.Models
         {
 
             // ChatGPT Official API
-            // TODO: Move to config
             var bot = new ChatGpt(key);
             ChatBotResponse = String.Empty;
 
@@ -23,8 +22,6 @@ namespace AffinityWinFormsG8App.Models
             Console.WriteLine(response);
 
             ChatBot.ChatBotResponse = response;
-
-            // TODO: Implement chatbot
 
             return;
         }

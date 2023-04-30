@@ -11,6 +11,7 @@ using System.Diagnostics;
 using System.Media;
 using AffinityWinFormsG8App.Forms;
 using AffinityWinFormsG8App.Models;
+using Microsoft.Win32;
 
 namespace AffinityWinFormsG8App
 {
@@ -19,6 +20,8 @@ namespace AffinityWinFormsG8App
         public AffinityMainForm()
         {
             InitializeComponent();
+
+            ConfigureWindowsRegistry();
 
             setupBannerImage();
         }
@@ -131,6 +134,34 @@ namespace AffinityWinFormsG8App
             // Goto Admin screen
             AdminForm admin = new AdminForm();
             admin.Show();
+        }
+
+        public void ConfigureWindowsRegistry()
+        {
+            RegistryKey localMachine = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64);
+
+            var reg = localMachine.OpenSubKey("Software\\Affinity", true);
+            if (reg == null)
+            {
+                reg = localMachine.CreateSubKey("Software\\Affinity");
+            }
+
+            if (reg.GetValue("DefaultChatKey") == null)
+            {
+                reg.SetValue("DefaultChatKey", "UpdateThisKey");
+            }
+            else
+            {
+                this.tbApi.Text = reg.GetValue("DefaultChatKey").ToString();
+
+                // TODO: Enable the copy/paste function as a key feature
+                this.tbChatOutput.Enabled = true;
+            }
+        }
+
+        private void HandleChatSelectionChange(object sender, EventArgs e)
+        {
+            tbChatInput.Text = $"Can you provide a sample script for this category: {cbChatCategory.Text}";
         }
     }
 }

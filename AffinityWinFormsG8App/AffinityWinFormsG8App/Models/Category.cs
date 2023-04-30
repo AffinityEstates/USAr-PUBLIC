@@ -13,6 +13,7 @@ namespace AffinityWinFormsG8App.Models
     {
         public int CategoryId { get; set; }
         public String? Name { get; set; }
+        public String? defaultChatGPTKey { get; set; }
         public virtual ObservableCollectionListSource<AffinityUser> Users { get; } = new();
     }
 }

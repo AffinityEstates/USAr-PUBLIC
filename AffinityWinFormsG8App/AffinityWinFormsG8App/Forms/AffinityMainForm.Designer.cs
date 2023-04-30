@@ -32,10 +32,9 @@
             splitContainer1 = new SplitContainer();
             label1 = new Label();
             pictureBox3 = new PictureBox();
+            cbChatCategory = new ComboBox();
             checkBox1 = new CheckBox();
             dbAIInput1 = new CheckBox();
-            pictureBox2 = new PictureBox();
-            tbApi = new TextBox();
             lblChatResponse = new Label();
             button3 = new Button();
             button2 = new Button();
@@ -44,6 +43,8 @@
             panel1 = new Panel();
             btnGotoAdmin = new Button();
             btnLockedTab = new Button();
+            tbApi = new TextBox();
+            pictureBox2 = new PictureBox();
             btnIllinoiis = new Button();
             pictureBox1 = new PictureBox();
             btnTenn = new Button();
@@ -51,14 +52,13 @@
             btnMich = new Button();
             btnKy = new Button();
             mainBannerPictureBox1 = new PictureBox();
-            cbProgLanguage = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
             SuspendLayout();
@@ -75,11 +75,9 @@
             splitContainer1.Panel1.BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Panel1.Controls.Add(pictureBox3);
-            splitContainer1.Panel1.Controls.Add(cbProgLanguage);
+            splitContainer1.Panel1.Controls.Add(cbChatCategory);
             splitContainer1.Panel1.Controls.Add(checkBox1);
             splitContainer1.Panel1.Controls.Add(dbAIInput1);
-            splitContainer1.Panel1.Controls.Add(pictureBox2);
-            splitContainer1.Panel1.Controls.Add(tbApi);
             splitContainer1.Panel1.Controls.Add(lblChatResponse);
             splitContainer1.Panel1.Controls.Add(button3);
             splitContainer1.Panel1.Controls.Add(button2);
@@ -123,43 +121,40 @@
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
             // 
+            // cbChatCategory
+            // 
+            cbChatCategory.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            cbChatCategory.FormattingEnabled = true;
+            cbChatCategory.ImeMode = ImeMode.On;
+            cbChatCategory.Items.AddRange(new object[] { "Educational", "Entertainment", "Customer Service" });
+            cbChatCategory.Location = new Point(12, 132);
+            cbChatCategory.Name = "cbChatCategory";
+            cbChatCategory.Size = new Size(151, 28);
+            cbChatCategory.TabIndex = 11;
+            cbChatCategory.Text = "Select Category";
+            cbChatCategory.SelectedIndexChanged += HandleChatSelectionChange;
+            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(12, 192);
+            checkBox1.Location = new Point(27, 196);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(220, 24);
             checkBox1.TabIndex = 10;
             checkBox1.Text = "Create Database Connection";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.Visible = false;
             // 
             // dbAIInput1
             // 
             dbAIInput1.AutoSize = true;
-            dbAIInput1.Location = new Point(12, 162);
+            dbAIInput1.Location = new Point(27, 166);
             dbAIInput1.Name = "dbAIInput1";
             dbAIInput1.Size = new Size(181, 24);
             dbAIInput1.TabIndex = 9;
             dbAIInput1.Text = "Create Simple Website";
             dbAIInput1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.key_icon_png_20_2507228831;
-            pictureBox2.Location = new Point(12, 92);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(42, 34);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
-            // 
-            // tbApi
-            // 
-            tbApi.BackColor = SystemColors.InactiveCaption;
-            tbApi.Location = new Point(60, 92);
-            tbApi.Name = "tbApi";
-            tbApi.Size = new Size(231, 27);
-            tbApi.TabIndex = 7;
+            dbAIInput1.Visible = false;
             // 
             // lblChatResponse
             // 
@@ -171,7 +166,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(182, 22);
+            button3.Location = new Point(277, 22);
             button3.Name = "button3";
             button3.Size = new Size(109, 29);
             button3.TabIndex = 3;
@@ -218,6 +213,8 @@
             panel1.BackColor = SystemColors.MenuHighlight;
             panel1.Controls.Add(btnGotoAdmin);
             panel1.Controls.Add(btnLockedTab);
+            panel1.Controls.Add(tbApi);
+            panel1.Controls.Add(pictureBox2);
             panel1.Location = new Point(18, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(784, 58);
@@ -246,6 +243,24 @@
             btnLockedTab.TabIndex = 7;
             btnLockedTab.UseVisualStyleBackColor = false;
             btnLockedTab.Click += btnLockedTab_Click;
+            // 
+            // tbApi
+            // 
+            tbApi.BackColor = SystemColors.InactiveCaption;
+            tbApi.Location = new Point(538, 16);
+            tbApi.Name = "tbApi";
+            tbApi.Size = new Size(231, 27);
+            tbApi.TabIndex = 7;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.key_icon_png_20_2507228831;
+            pictureBox2.Location = new Point(490, 16);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(42, 27);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
             // 
             // btnIllinoiis
             // 
@@ -331,18 +346,6 @@
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
             // 
-            // cbProgLanguage
-            // 
-            cbProgLanguage.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
-            cbProgLanguage.FormattingEnabled = true;
-            cbProgLanguage.ImeMode = ImeMode.On;
-            cbProgLanguage.Items.AddRange(new object[] { "Educational", "Entertainment", "Customer Service" });
-            cbProgLanguage.Location = new Point(235, 158);
-            cbProgLanguage.Name = "cbProgLanguage";
-            cbProgLanguage.Size = new Size(151, 28);
-            cbProgLanguage.TabIndex = 11;
-            cbProgLanguage.Text = "Select Category";
-            // 
             // AffinityMainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -364,8 +367,9 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
             ResumeLayout(false);
@@ -395,6 +399,6 @@
         private CheckBox dbAIInput1;
         private Label label1;
         private PictureBox pictureBox3;
-        private ComboBox cbProgLanguage;
+        private ComboBox cbChatCategory;
     }
 }
