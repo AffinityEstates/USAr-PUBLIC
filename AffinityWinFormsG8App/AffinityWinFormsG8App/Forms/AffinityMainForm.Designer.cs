@@ -30,10 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AffinityMainForm));
             splitContainer1 = new SplitContainer();
+            label1 = new Label();
+            pictureBox3 = new PictureBox();
+            checkBox1 = new CheckBox();
+            dbAIInput1 = new CheckBox();
             pictureBox2 = new PictureBox();
             tbApi = new TextBox();
-            pictureBox1 = new PictureBox();
-            tbChatOutput = new TextBox();
             lblChatResponse = new Label();
             button3 = new Button();
             button2 = new Button();
@@ -43,20 +45,21 @@
             btnGotoAdmin = new Button();
             btnLockedTab = new Button();
             btnIllinoiis = new Button();
+            pictureBox1 = new PictureBox();
             btnTenn = new Button();
+            tbChatOutput = new TextBox();
             btnMich = new Button();
             btnKy = new Button();
             mainBannerPictureBox1 = new PictureBox();
-            dbAIInput1 = new CheckBox();
-            checkBox1 = new CheckBox();
             cbProgLanguage = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -70,6 +73,8 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
+            splitContainer1.Panel1.Controls.Add(label1);
+            splitContainer1.Panel1.Controls.Add(pictureBox3);
             splitContainer1.Panel1.Controls.Add(cbProgLanguage);
             splitContainer1.Panel1.Controls.Add(checkBox1);
             splitContainer1.Panel1.Controls.Add(dbAIInput1);
@@ -97,6 +102,47 @@
             splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 0;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Location = new Point(40, 499);
+            label1.Name = "label1";
+            label1.Size = new Size(91, 20);
+            label1.TabIndex = 7;
+            label1.Text = "powered by:";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
+            pictureBox3.Location = new Point(137, 499);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(95, 20);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 7;
+            pictureBox3.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(12, 192);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(220, 24);
+            checkBox1.TabIndex = 10;
+            checkBox1.Text = "Create Database Connection";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // dbAIInput1
+            // 
+            dbAIInput1.AutoSize = true;
+            dbAIInput1.Location = new Point(12, 162);
+            dbAIInput1.Name = "dbAIInput1";
+            dbAIInput1.Size = new Size(181, 24);
+            dbAIInput1.TabIndex = 9;
+            dbAIInput1.Text = "Create Simple Website";
+            dbAIInput1.UseVisualStyleBackColor = true;
+            // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.key_icon_png_20_2507228831;
@@ -114,30 +160,6 @@
             tbApi.Name = "tbApi";
             tbApi.Size = new Size(231, 27);
             tbApi.TabIndex = 7;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
-            pictureBox1.Location = new Point(366, 587);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 32);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            // 
-            // tbChatOutput
-            // 
-            tbChatOutput.BackColor = Color.PaleTurquoise;
-            tbChatOutput.BorderStyle = BorderStyle.FixedSingle;
-            tbChatOutput.Cursor = Cursors.PanNW;
-            tbChatOutput.Enabled = false;
-            tbChatOutput.Font = new Font("Segoe UI Variable Text", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            tbChatOutput.Location = new Point(3, 435);
-            tbChatOutput.Multiline = true;
-            tbChatOutput.Name = "tbChatOutput";
-            tbChatOutput.Size = new Size(833, 150);
-            tbChatOutput.TabIndex = 5;
             // 
             // lblChatResponse
             // 
@@ -160,12 +182,12 @@
             // button2
             // 
             button2.BackColor = Color.Transparent;
-            button2.BackgroundImage = Properties.Resources.SUBMIT_BUTTON_4072490582;
             button2.BackgroundImageLayout = ImageLayout.Stretch;
-            button2.Location = new Point(268, 409);
+            button2.Location = new Point(268, 342);
             button2.Name = "button2";
-            button2.Size = new Size(118, 34);
+            button2.Size = new Size(118, 54);
             button2.TabIndex = 2;
+            button2.Text = "Submit to ChatGPT";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
@@ -185,10 +207,10 @@
             // 
             // tbChatInput
             // 
-            tbChatInput.Location = new Point(12, 363);
+            tbChatInput.Location = new Point(12, 253);
             tbChatInput.Multiline = true;
             tbChatInput.Name = "tbChatInput";
-            tbChatInput.Size = new Size(250, 118);
+            tbChatInput.Size = new Size(250, 228);
             tbChatInput.TabIndex = 0;
             // 
             // panel1
@@ -206,7 +228,7 @@
             btnGotoAdmin.BackColor = Color.Transparent;
             btnGotoAdmin.BackgroundImage = (Image)resources.GetObject("btnGotoAdmin.BackgroundImage");
             btnGotoAdmin.BackgroundImageLayout = ImageLayout.Stretch;
-            btnGotoAdmin.Location = new Point(371, 7);
+            btnGotoAdmin.Location = new Point(60, 7);
             btnGotoAdmin.Name = "btnGotoAdmin";
             btnGotoAdmin.Size = new Size(42, 44);
             btnGotoAdmin.TabIndex = 8;
@@ -218,7 +240,7 @@
             btnLockedTab.BackColor = Color.Transparent;
             btnLockedTab.BackgroundImage = (Image)resources.GetObject("btnLockedTab.BackgroundImage");
             btnLockedTab.BackgroundImageLayout = ImageLayout.Stretch;
-            btnLockedTab.Location = new Point(48, 9);
+            btnLockedTab.Location = new Point(12, 7);
             btnLockedTab.Name = "btnLockedTab";
             btnLockedTab.Size = new Size(42, 44);
             btnLockedTab.TabIndex = 7;
@@ -230,31 +252,55 @@
             btnIllinoiis.BackColor = Color.Transparent;
             btnIllinoiis.BackgroundImage = (Image)resources.GetObject("btnIllinoiis.BackgroundImage");
             btnIllinoiis.BackgroundImageLayout = ImageLayout.Stretch;
-            btnIllinoiis.Location = new Point(712, 335);
+            btnIllinoiis.Location = new Point(650, 272);
             btnIllinoiis.Name = "btnIllinoiis";
             btnIllinoiis.Size = new Size(90, 83);
             btnIllinoiis.TabIndex = 5;
             btnIllinoiis.UseVisualStyleBackColor = false;
             btnIllinoiis.Click += btnIllinoiis_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
+            pictureBox1.Location = new Point(366, 587);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(109, 32);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            // 
             // btnTenn
             // 
             btnTenn.BackColor = Color.Transparent;
             btnTenn.BackgroundImage = (Image)resources.GetObject("btnTenn.BackgroundImage");
             btnTenn.BackgroundImageLayout = ImageLayout.Stretch;
-            btnTenn.Location = new Point(712, 246);
+            btnTenn.Location = new Point(746, 272);
             btnTenn.Name = "btnTenn";
             btnTenn.Size = new Size(90, 83);
             btnTenn.TabIndex = 4;
             btnTenn.UseVisualStyleBackColor = false;
             btnTenn.Click += btnTenn_Click;
             // 
+            // tbChatOutput
+            // 
+            tbChatOutput.BackColor = Color.PaleTurquoise;
+            tbChatOutput.BorderStyle = BorderStyle.FixedSingle;
+            tbChatOutput.Cursor = Cursors.PanNW;
+            tbChatOutput.Enabled = false;
+            tbChatOutput.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tbChatOutput.Location = new Point(3, 363);
+            tbChatOutput.Multiline = true;
+            tbChatOutput.Name = "tbChatOutput";
+            tbChatOutput.Size = new Size(833, 222);
+            tbChatOutput.TabIndex = 5;
+            // 
             // btnMich
             // 
             btnMich.BackColor = Color.Transparent;
             btnMich.BackgroundImage = (Image)resources.GetObject("btnMich.BackgroundImage");
             btnMich.BackgroundImageLayout = ImageLayout.Stretch;
-            btnMich.Location = new Point(18, 246);
+            btnMich.Location = new Point(3, 272);
             btnMich.Name = "btnMich";
             btnMich.Size = new Size(90, 83);
             btnMich.TabIndex = 3;
@@ -266,7 +312,7 @@
             btnKy.BackColor = Color.Transparent;
             btnKy.BackgroundImage = Properties.Resources.kentucky_map_icon_414223723;
             btnKy.BackgroundImageLayout = ImageLayout.Stretch;
-            btnKy.Location = new Point(18, 335);
+            btnKy.Location = new Point(99, 272);
             btnKy.Name = "btnKy";
             btnKy.Size = new Size(90, 83);
             btnKy.TabIndex = 2;
@@ -279,42 +325,23 @@
             mainBannerPictureBox1.ImageLocation = "";
             mainBannerPictureBox1.Location = new Point(3, 0);
             mainBannerPictureBox1.Name = "mainBannerPictureBox1";
-            mainBannerPictureBox1.Size = new Size(814, 429);
+            mainBannerPictureBox1.Size = new Size(814, 266);
             mainBannerPictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             mainBannerPictureBox1.TabIndex = 1;
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
             // 
-            // dbAIInput1
-            // 
-            dbAIInput1.AutoSize = true;
-            dbAIInput1.Location = new Point(12, 260);
-            dbAIInput1.Name = "dbAIInput1";
-            dbAIInput1.Size = new Size(181, 24);
-            dbAIInput1.TabIndex = 9;
-            dbAIInput1.Text = "Create Simple Website";
-            dbAIInput1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(12, 290);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(220, 24);
-            checkBox1.TabIndex = 10;
-            checkBox1.Text = "Create Database Connection";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
             // cbProgLanguage
             // 
+            cbProgLanguage.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
             cbProgLanguage.FormattingEnabled = true;
             cbProgLanguage.ImeMode = ImeMode.On;
-            cbProgLanguage.Items.AddRange(new object[] { "Visual Basic", "C#", "HTML", "Java" });
-            cbProgLanguage.Location = new Point(78, 324);
+            cbProgLanguage.Items.AddRange(new object[] { "Educational", "Entertainment", "Customer Service" });
+            cbProgLanguage.Location = new Point(235, 158);
             cbProgLanguage.Name = "cbProgLanguage";
             cbProgLanguage.Size = new Size(151, 28);
             cbProgLanguage.TabIndex = 11;
-            cbProgLanguage.Text = "Visual Basic";
+            cbProgLanguage.Text = "Select Category";
             // 
             // AffinityMainForm
             // 
@@ -336,9 +363,10 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)mainBannerPictureBox1).EndInit();
             ResumeLayout(false);
         }
@@ -365,6 +393,8 @@
         private Button btnGotoAdmin;
         private CheckBox checkBox1;
         private CheckBox dbAIInput1;
+        private Label label1;
+        private PictureBox pictureBox3;
         private ComboBox cbProgLanguage;
     }
 }
