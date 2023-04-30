@@ -27,11 +27,12 @@ namespace AffinityWinFormsG8App.Forms
 
             this.dbContext = new AffinityUserContext();
 
-            this.dbContext.Database.EnsureCreated();
+            // TODO: Investigate why the table load is failing before Admin screen
+            // this.dbContext.Database.EnsureCreated();
 
-            this.dbContext.Categories.Load();
+            // this.dbContext.Categories.Load();
 
-            // TODO: fix
+            // TODO: fix after table load is fixed, or remove table
             //this.categoryBindingSource = dbContext.Categories.Local.ToBindingList();
         }
 
@@ -40,12 +41,17 @@ namespace AffinityWinFormsG8App.Forms
             base.OnClosing(e);
 
             this.dbContext?.Dispose();
-            this.dbContext=null;
+            this.dbContext = null;
         }
 
         private void btnSaveAdmin_Click(object sender, EventArgs e)
         {
             // Save data
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
