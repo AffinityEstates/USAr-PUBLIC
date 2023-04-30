@@ -52,18 +52,14 @@ namespace AffinityWinFormsG8App
         private async void button2_Click(object sender, EventArgs e)
         {
             // handle chat bot here!
-            tbChatOutput.Clear();
+            await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
+            tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
+            Refresh();
+
             using (var soundPlayer = new SoundPlayer(@"c:\Windows\Media\chimes.wav"))
             {
                 soundPlayer.Play();
             }
-
-            await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
-            tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
-
-            tbChatInput.Clear();
-            splitContainer1.Refresh();
-            Refresh();
 
             tbChatInput.Focus();
         }

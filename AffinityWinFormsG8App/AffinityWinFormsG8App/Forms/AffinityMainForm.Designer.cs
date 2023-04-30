@@ -104,7 +104,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Location = new Point(40, 499);
+            label1.Location = new Point(114, 272);
             label1.Name = "label1";
             label1.Size = new Size(91, 20);
             label1.TabIndex = 7;
@@ -114,7 +114,7 @@
             // 
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox3.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
-            pictureBox3.Location = new Point(137, 499);
+            pictureBox3.Location = new Point(211, 272);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(95, 20);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -178,7 +178,7 @@
             // 
             button2.BackColor = SystemColors.ActiveCaption;
             button2.BackgroundImageLayout = ImageLayout.Stretch;
-            button2.Location = new Point(268, 342);
+            button2.Location = new Point(145, 557);
             button2.Name = "button2";
             button2.Size = new Size(118, 54);
             button2.TabIndex = 2;
@@ -202,10 +202,10 @@
             // 
             // tbChatInput
             // 
-            tbChatInput.Location = new Point(12, 253);
+            tbChatInput.Location = new Point(12, 303);
             tbChatInput.Multiline = true;
             tbChatInput.Name = "tbChatInput";
-            tbChatInput.Size = new Size(250, 228);
+            tbChatInput.Size = new Size(374, 248);
             tbChatInput.TabIndex = 0;
             // 
             // panel1
