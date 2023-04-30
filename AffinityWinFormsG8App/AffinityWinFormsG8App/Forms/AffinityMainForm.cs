@@ -131,7 +131,7 @@ namespace AffinityWinFormsG8App
 
         private void btnGotoAdmin_Click(object sender, EventArgs e)
         {
-            // Goto Admin screen
+            // Goto Admin screen            
             AdminForm admin = new AdminForm();
             admin.Show();
         }

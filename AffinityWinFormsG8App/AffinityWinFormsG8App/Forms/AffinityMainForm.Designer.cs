@@ -249,6 +249,7 @@
             tbApi.BackColor = SystemColors.InactiveCaption;
             tbApi.Location = new Point(538, 16);
             tbApi.Name = "tbApi";
+            tbApi.PasswordChar = '*';
             tbApi.Size = new Size(231, 27);
             tbApi.TabIndex = 7;
             // 
