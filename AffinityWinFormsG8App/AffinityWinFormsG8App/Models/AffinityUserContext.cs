@@ -21,7 +21,7 @@ namespace AffinityWinFormsG8App.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                new Category { CategoryId = 1, Name = "Employee", defaultChatGPTKey = "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" },
+                new Category { CategoryId = 1, Name = "Employee", defaultChatGPTKey = "updateMe:(" },
                 new Category { CategoryId = 2, Name = "Contractor", defaultChatGPTKey = "" },
                 new Category { CategoryId = 3, Name = "Visitor", defaultChatGPTKey = "" },
                 new Category { CategoryId = 4, Name = "Admin", defaultChatGPTKey = "" });
