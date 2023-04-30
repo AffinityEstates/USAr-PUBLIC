@@ -41,12 +41,17 @@ namespace AffinityWinFormsG8App.Forms
             base.OnClosing(e);
 
             this.dbContext?.Dispose();
-            this.dbContext=null;
+            this.dbContext = null;
         }
 
         private void btnSaveAdmin_Click(object sender, EventArgs e)
         {
             // Save data
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

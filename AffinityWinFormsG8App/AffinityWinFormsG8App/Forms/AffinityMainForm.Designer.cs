@@ -176,7 +176,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Transparent;
+            button2.BackColor = SystemColors.ActiveCaption;
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Location = new Point(268, 342);
             button2.Name = "button2";

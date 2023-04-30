@@ -133,7 +133,7 @@ namespace AffinityWinFormsG8App
         {
             // Goto Admin screen            
             AdminForm admin = new AdminForm();
-            admin.Show();
+            admin.ShowDialog(this);
         }
 
         public void ConfigureWindowsRegistry()

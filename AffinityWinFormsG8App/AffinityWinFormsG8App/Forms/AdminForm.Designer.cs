@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
             gvAffinityUsers = new DataGridView();
             userIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             userNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -40,6 +41,7 @@
             nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             categoryBindingSource = new BindingSource(components);
             btnSaveAdmin = new Button();
+            btnCancel = new Button();
             ((System.ComponentModel.ISupportInitialize)gvAffinityUsers).BeginInit();
             ((System.ComponentModel.ISupportInitialize)affinityUserBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gvCategories).BeginInit();
@@ -140,18 +142,32 @@
             btnSaveAdmin.UseVisualStyleBackColor = false;
             btnSaveAdmin.Click += btnSaveAdmin_Click;
             // 
+            // btnCancel
+            // 
+            btnCancel.BackColor = Color.FloralWhite;
+            btnCancel.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancel.Location = new Point(615, 377);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(126, 33);
+            btnCancel.TabIndex = 3;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = false;
+            btnCancel.Click += btnCancel_Click;
+            // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(900, 427);
+            Controls.Add(btnCancel);
             Controls.Add(btnSaveAdmin);
             Controls.Add(gvCategories);
             Controls.Add(gvAffinityUsers);
             Cursor = Cursors.Cross;
             Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 3, 4, 3);
             Name = "AdminForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -176,5 +192,6 @@
         private DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private BindingSource categoryBindingSource;
         private Button btnSaveAdmin;
+        private Button btnCancel;
     }
 }
