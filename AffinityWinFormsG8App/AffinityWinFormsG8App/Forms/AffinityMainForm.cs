@@ -6,12 +6,12 @@
     to this Privacy Policy (collectively, “the Sites”), in our capacity as data controllers.
  * */
 
-using System.Configuration;
 using System.Diagnostics;
-using System.Media;
 using AffinityWinFormsG8App.Forms;
 using AffinityWinFormsG8App.Models;
 using Microsoft.Win32;
+using System.Speech.Synthesis;
+using System.Globalization;
 
 namespace AffinityWinFormsG8App
 {
@@ -28,6 +28,7 @@ namespace AffinityWinFormsG8App
 
         private void setupBannerImage()
         {
+            this.tbChatInput.Focus();
             return;
         }
 
@@ -51,17 +52,7 @@ namespace AffinityWinFormsG8App
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            // handle chat bot here!
-            await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
-            tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
-            Refresh();
-
-            using (var soundPlayer = new SoundPlayer(@"c:\Windows\Media\chimes.wav"))
-            {
-                soundPlayer.Play();
-            }
-
-            tbChatInput.Focus();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -113,7 +104,7 @@ namespace AffinityWinFormsG8App
         private void btnIllinoiis_Click(object sender, EventArgs e)
         {
             // TODO: Fix accessing config file!
-            System.Diagnostics.Process.Start(new ProcessStartInfo
+            Process.Start(new ProcessStartInfo
             {
                 FileName = "https://oculus.com/vr/5832979190063128/",
                 UseShellExecute = true
@@ -132,7 +123,7 @@ namespace AffinityWinFormsG8App
             admin.ShowDialog(this);
         }
 
-        public void ConfigureWindowsRegistry()
+        private void ConfigureWindowsRegistry()
         {
             RegistryKey localMachine = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64);
 
@@ -158,6 +149,56 @@ namespace AffinityWinFormsG8App
         private void HandleChatSelectionChange(object sender, EventArgs e)
         {
             tbChatInput.Text = $"Can you provide a sample script for this category: {cbChatCategory.Text}";
+        }
+
+        private void btnNewsPictureButton_Click(object sender, EventArgs e)
+        {
+            // TODO: Fix accessing config file!
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://www.affinityestates.us",
+                UseShellExecute = true
+            });
+        }
+
+        private bool isValidKey(String key)
+        {
+            var isValid = true;
+
+            if (String.IsNullOrEmpty(key))
+            {
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
+        private async void btnSubmitTextToBot_Click(object sender, EventArgs e)
+        {
+            // if no key, return
+            if (!isValidKey(tbApi.Text))
+            {
+                MessageBox.Show("Please enter a valid product key.");
+                return;
+            }
+
+            // handle chat bot async call here!
+            await ChatBot.setChatBotResponseAsync(tbChatInput.Text, tbApi.Text);
+
+            tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
+            Refresh();
+            
+            if (!cbIsBotMuted.Checked) // speak! if not muted
+            {
+                SpeechSynthesizer syn = new SpeechSynthesizer();
+                syn.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult, 0, CultureInfo.GetCultureInfo("pt-BR"));
+                syn.Volume = 100;  // (0 - 100)
+                syn.Rate = 0;     // (-10 - 10)
+                syn.SetOutputToDefaultAudioDevice();
+                syn.SpeakAsync(ChatBot.ChatBotResponse);
+            }
+
+            tbChatInput.Focus();
         }
     }
 }

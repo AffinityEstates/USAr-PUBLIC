@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PP2bYjgbMO2eWENPn1IZZJ9yFWTcc5F0SZaqJeyjgQrnJgOE6UvrFKp+ES4HxPcFps/ogsdhyiBlXJWBpezUtA==",
+  "dgSpecHash": "R/FngCBiLae3mLMH7k58YigW08TVJzHb5Y7ZFlMzivU8nvqycsOtv3LeCFD8VR1cYTxl77E4SX52ryNB8FLZqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityWinFormsG8App\\AffinityWinFormsG8App\\AffinityWinFormsG8App.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\duran\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\duran\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
