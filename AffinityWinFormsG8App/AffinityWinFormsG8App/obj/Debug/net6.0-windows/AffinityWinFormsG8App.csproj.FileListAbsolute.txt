@@ -66,3 +66,7 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFor
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.Forms.AdminForm.resources
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\System.Speech.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\Interop.SpeechLib.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\obj\Debug\net6.0-windows\AffinityWinFormsG8App.csproj.ResolveComReference.cache
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityWinFormsG8App\AffinityWinFormsG8App\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Speech.dll
