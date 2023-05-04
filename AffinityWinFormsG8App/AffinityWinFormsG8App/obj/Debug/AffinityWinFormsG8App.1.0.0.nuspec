@@ -6,7 +6,12 @@
     <authors>AffinityWinFormsG8App</authors>
     <description>Package Description</description>
     <dependencies>
-      <group targetFramework="net6.0-windows7.0" />
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="ChatGPT.Net" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="System.Speech" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
     <frameworkReferences>
       <group targetFramework="net6.0-windows7.0">
