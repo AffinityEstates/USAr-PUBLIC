@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AffinitySetup", "AffinitySetup\AffinitySetup.vdproj", "{FE7A6A95-93ED-44BE-9FCD-B729B7D9631E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE7A6A95-93ED-44BE-9FCD-B729B7D9631E}.Debug|Default.ActiveCfg = Debug
+		{FE7A6A95-93ED-44BE-9FCD-B729B7D9631E}.Debug|Default.Build.0 = Debug
+		{FE7A6A95-93ED-44BE-9FCD-B729B7D9631E}.Release|Default.ActiveCfg = Release
+		{FE7A6A95-93ED-44BE-9FCD-B729B7D9631E}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B378174-67AE-4985-A6D1-1598C36981DB}
+	EndGlobalSection
+EndGlobal

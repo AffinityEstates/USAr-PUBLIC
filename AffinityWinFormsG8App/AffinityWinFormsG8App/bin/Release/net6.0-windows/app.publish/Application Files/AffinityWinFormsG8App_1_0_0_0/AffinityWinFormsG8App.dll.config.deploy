@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<urls>
+		<mainAffinityURL>https://www.affinityestates.us/</mainAffinityURL>
+		<USARYoutubeURL></USARYoutubeURL>
+		<TheLitClickYoutubeURL>https://youtube.com/@UnitedStatesOfAR</TheLitClickYoutubeURL>
+		<TheLitLickIGURL></TheLitLickIGURL>
+		<DuranURL>http://www.duranwilliams.com/</DuranURL>
+	</urls>
+</configuration>

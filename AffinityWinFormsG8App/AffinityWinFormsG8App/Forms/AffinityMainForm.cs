@@ -178,7 +178,8 @@ namespace AffinityWinFormsG8App
             // if no key, return
             if (!isValidKey(tbApi.Text))
             {
-                MessageBox.Show("Please enter a valid product key.");
+                MessageBox.Show("Please enter a valid product key. Get a free OpenAI key from: https://platform.openai.com/account/api-keys");
+                tbApi.Focus();
                 return;
             }
 
