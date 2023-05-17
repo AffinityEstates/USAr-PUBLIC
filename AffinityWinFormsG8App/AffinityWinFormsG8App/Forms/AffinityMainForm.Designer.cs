@@ -80,7 +80,6 @@
             splitContainer1.Panel1.Controls.Add(btnIllinoiis);
             splitContainer1.Panel1.Controls.Add(pictureBox3);
             splitContainer1.Panel1.Controls.Add(cbChatCategory);
-            splitContainer1.Panel1.Controls.Add(btnTenn);
             splitContainer1.Panel1.Controls.Add(checkBox1);
             splitContainer1.Panel1.Controls.Add(dbAIInput1);
             splitContainer1.Panel1.Controls.Add(btnMich);
@@ -96,11 +95,12 @@
             splitContainer1.Panel2.Controls.Add(pictureBox1);
             splitContainer1.Panel2.Controls.Add(tbChatOutput);
             splitContainer1.Panel2.Controls.Add(mainBannerPictureBox1);
+            splitContainer1.Panel2.Controls.Add(btnTenn);
             splitContainer1.Panel2.Controls.Add(tbChatInput);
             splitContainer1.Panel2.Controls.Add(btnSubmitTextToBot);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(1254, 622);
-            splitContainer1.SplitterDistance = 401;
+            splitContainer1.Size = new Size(939, 622);
+            splitContainer1.SplitterDistance = 319;
             splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 0;
             // 
@@ -109,9 +109,9 @@
             btnNewsPictureButton.BackColor = Color.Transparent;
             btnNewsPictureButton.BackgroundImage = (Image)resources.GetObject("btnNewsPictureButton.BackgroundImage");
             btnNewsPictureButton.BackgroundImageLayout = ImageLayout.Stretch;
-            btnNewsPictureButton.Location = new Point(25, 174);
+            btnNewsPictureButton.Location = new Point(8, 170);
             btnNewsPictureButton.Name = "btnNewsPictureButton";
-            btnNewsPictureButton.Size = new Size(344, 282);
+            btnNewsPictureButton.Size = new Size(291, 251);
             btnNewsPictureButton.TabIndex = 12;
             btnNewsPictureButton.UseVisualStyleBackColor = false;
             btnNewsPictureButton.Click += btnNewsPictureButton_Click;
@@ -120,7 +120,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Location = new Point(103, 473);
+            label1.Location = new Point(57, 442);
             label1.Name = "label1";
             label1.Size = new Size(91, 20);
             label1.TabIndex = 7;
@@ -142,9 +142,9 @@
             // 
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox3.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
-            pictureBox3.Location = new Point(200, 473);
+            pictureBox3.Location = new Point(154, 427);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(95, 20);
+            pictureBox3.Size = new Size(117, 35);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
@@ -167,7 +167,7 @@
             btnTenn.BackColor = Color.Transparent;
             btnTenn.BackgroundImage = (Image)resources.GetObject("btnTenn.BackgroundImage");
             btnTenn.BackgroundImageLayout = ImageLayout.Stretch;
-            btnTenn.Location = new Point(296, 527);
+            btnTenn.Location = new Point(513, 488);
             btnTenn.Name = "btnTenn";
             btnTenn.Size = new Size(90, 83);
             btnTenn.TabIndex = 4;
@@ -230,7 +230,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(277, 22);
+            button3.Location = new Point(127, 22);
             button3.Name = "button3";
             button3.Size = new Size(109, 29);
             button3.TabIndex = 3;
@@ -256,7 +256,7 @@
             // 
             cbIsBotMuted.AutoSize = true;
             cbIsBotMuted.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
-            cbIsBotMuted.Location = new Point(753, 341);
+            cbIsBotMuted.Location = new Point(522, 267);
             cbIsBotMuted.Name = "cbIsBotMuted";
             cbIsBotMuted.Size = new Size(64, 23);
             cbIsBotMuted.TabIndex = 7;
@@ -272,7 +272,7 @@
             panel1.Controls.Add(pictureBox2);
             panel1.Location = new Point(18, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(784, 58);
+            panel1.Size = new Size(468, 58);
             panel1.TabIndex = 6;
             // 
             // btnGotoAdmin
@@ -302,7 +302,7 @@
             // tbApi
             // 
             tbApi.BackColor = SystemColors.InactiveCaption;
-            tbApi.Location = new Point(538, 16);
+            tbApi.Location = new Point(206, 16);
             tbApi.Name = "tbApi";
             tbApi.PasswordChar = '*';
             tbApi.Size = new Size(231, 27);
@@ -311,7 +311,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.key_icon_png_20_2507228831;
-            pictureBox2.Location = new Point(490, 16);
+            pictureBox2.Location = new Point(158, 16);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(42, 27);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -322,7 +322,7 @@
             // 
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Image = Properties.Resources.chatgpt_logo_header_banner_345686558;
-            pictureBox1.Location = new Point(366, 587);
+            pictureBox1.Location = new Point(204, 577);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(109, 32);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -339,7 +339,7 @@
             tbChatOutput.Location = new Point(3, 370);
             tbChatOutput.Multiline = true;
             tbChatOutput.Name = "tbChatOutput";
-            tbChatOutput.Size = new Size(833, 215);
+            tbChatOutput.Size = new Size(504, 201);
             tbChatOutput.TabIndex = 5;
             // 
             // mainBannerPictureBox1
@@ -348,7 +348,7 @@
             mainBannerPictureBox1.ImageLocation = "";
             mainBannerPictureBox1.Location = new Point(3, 0);
             mainBannerPictureBox1.Name = "mainBannerPictureBox1";
-            mainBannerPictureBox1.Size = new Size(814, 266);
+            mainBannerPictureBox1.Size = new Size(504, 257);
             mainBannerPictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             mainBannerPictureBox1.TabIndex = 1;
             mainBannerPictureBox1.TabStop = false;
@@ -359,16 +359,16 @@
             tbChatInput.Location = new Point(3, 281);
             tbChatInput.Multiline = true;
             tbChatInput.Name = "tbChatInput";
-            tbChatInput.Size = new Size(690, 76);
+            tbChatInput.Size = new Size(504, 69);
             tbChatInput.TabIndex = 0;
             // 
             // btnSubmitTextToBot
             // 
             btnSubmitTextToBot.BackColor = SystemColors.ActiveCaption;
             btnSubmitTextToBot.BackgroundImageLayout = ImageLayout.Stretch;
-            btnSubmitTextToBot.Location = new Point(699, 281);
+            btnSubmitTextToBot.Location = new Point(513, 296);
             btnSubmitTextToBot.Name = "btnSubmitTextToBot";
-            btnSubmitTextToBot.Size = new Size(118, 54);
+            btnSubmitTextToBot.Size = new Size(99, 54);
             btnSubmitTextToBot.TabIndex = 2;
             btnSubmitTextToBot.Text = "Submit to ChatGPT";
             btnSubmitTextToBot.UseVisualStyleBackColor = false;
@@ -381,7 +381,7 @@
             BackColor = Color.Aqua;
             BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(1254, 622);
+            ClientSize = new Size(939, 622);
             Controls.Add(splitContainer1);
             Cursor = Cursors.Hand;
             DoubleBuffered = true;
