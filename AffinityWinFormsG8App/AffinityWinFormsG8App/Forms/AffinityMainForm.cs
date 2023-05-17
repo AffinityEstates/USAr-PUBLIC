@@ -52,7 +52,7 @@ namespace AffinityWinFormsG8App
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -188,11 +188,11 @@ namespace AffinityWinFormsG8App
 
             tbChatOutput.Text = $"ChatGPT Response: {ChatBot.ChatBotResponse}";
             Refresh();
-            
+
             if (!cbIsBotMuted.Checked) // speak! if not muted
             {
                 SpeechSynthesizer syn = new SpeechSynthesizer();
-                syn.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult, 0, CultureInfo.GetCultureInfo("pt-BR"));
+                syn.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult);
                 syn.Volume = 100;  // (0 - 100)
                 syn.Rate = 0;     // (-10 - 10)
                 syn.SetOutputToDefaultAudioDevice();
