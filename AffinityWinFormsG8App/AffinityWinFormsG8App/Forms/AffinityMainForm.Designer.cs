@@ -35,7 +35,6 @@
             btnIllinoiis = new Button();
             pictureBox3 = new PictureBox();
             cbChatCategory = new ComboBox();
-            btnTenn = new Button();
             checkBox1 = new CheckBox();
             dbAIInput1 = new CheckBox();
             btnMich = new Button();
@@ -52,6 +51,7 @@
             pictureBox1 = new PictureBox();
             tbChatOutput = new TextBox();
             mainBannerPictureBox1 = new PictureBox();
+            btnTenn = new Button();
             tbChatInput = new TextBox();
             btnSubmitTextToBot = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
@@ -90,6 +90,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            splitContainer1.Panel2.BackColor = Color.Turquoise;
             splitContainer1.Panel2.Controls.Add(cbIsBotMuted);
             splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
@@ -161,18 +162,6 @@
             cbChatCategory.TabIndex = 11;
             cbChatCategory.Text = "Select Category";
             cbChatCategory.SelectedIndexChanged += HandleChatSelectionChange;
-            // 
-            // btnTenn
-            // 
-            btnTenn.BackColor = Color.Transparent;
-            btnTenn.BackgroundImage = (Image)resources.GetObject("btnTenn.BackgroundImage");
-            btnTenn.BackgroundImageLayout = ImageLayout.Stretch;
-            btnTenn.Location = new Point(513, 488);
-            btnTenn.Name = "btnTenn";
-            btnTenn.Size = new Size(90, 83);
-            btnTenn.TabIndex = 4;
-            btnTenn.UseVisualStyleBackColor = false;
-            btnTenn.Click += btnTenn_Click;
             // 
             // checkBox1
             // 
@@ -353,6 +342,18 @@
             mainBannerPictureBox1.TabIndex = 1;
             mainBannerPictureBox1.TabStop = false;
             mainBannerPictureBox1.WaitOnLoad = true;
+            // 
+            // btnTenn
+            // 
+            btnTenn.BackColor = Color.Transparent;
+            btnTenn.BackgroundImage = (Image)resources.GetObject("btnTenn.BackgroundImage");
+            btnTenn.BackgroundImageLayout = ImageLayout.Stretch;
+            btnTenn.Location = new Point(513, 488);
+            btnTenn.Name = "btnTenn";
+            btnTenn.Size = new Size(90, 83);
+            btnTenn.TabIndex = 4;
+            btnTenn.UseVisualStyleBackColor = false;
+            btnTenn.Click += btnTenn_Click;
             // 
             // tbChatInput
             // 
