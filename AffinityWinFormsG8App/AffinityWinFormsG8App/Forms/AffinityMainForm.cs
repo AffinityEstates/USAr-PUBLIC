@@ -28,7 +28,8 @@ namespace AffinityWinFormsG8App
 
         private void setupBannerImage()
         {
-            this.tbChatInput.Focus();
+            this.tbChatInput.Select();
+            this.cbIsBotMuted.Checked = true;
             return;
         }
 
@@ -57,7 +58,7 @@ namespace AffinityWinFormsG8App
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // TODO: Fix accessing config file!
+            // TODO: Fix accessing config file! There may be a better way to do this
             System.Diagnostics.Process.Start(new ProcessStartInfo
             {
                 FileName = "https://www.roblox.com/games/10383092478/Willow-Wonderland-Super-Obby-and-Racetrack",
@@ -200,6 +201,12 @@ namespace AffinityWinFormsG8App
             }
 
             tbChatInput.Focus();
+        }
+
+        private void btnGotoResumeForm_Click_1(object sender, EventArgs e)
+        {
+            ResumeForm resumeForm = new ResumeForm();
+            resumeForm.ShowDialog(this);
         }
     }
 }

@@ -123,9 +123,39 @@ namespace AffinityWinFormsG8App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PDF_icon_1_2186195913 {
+            get {
+                object obj = ResourceManager.GetObject("PDF-icon-1-2186195913", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resume_icon_png_1_2281174287 {
+            get {
+                object obj = ResourceManager.GetObject("resume-icon-png-1-2281174287", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SUBMIT_BUTTON_4072490582 {
             get {
                 object obj = ResourceManager.GetObject("SUBMIT-BUTTON-4072490582", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap word_icon {
+            get {
+                object obj = ResourceManager.GetObject("word icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

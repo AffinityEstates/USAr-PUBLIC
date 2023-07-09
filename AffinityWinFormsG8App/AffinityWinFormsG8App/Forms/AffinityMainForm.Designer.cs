@@ -54,6 +54,8 @@
             btnTenn = new Button();
             tbChatInput = new TextBox();
             btnSubmitTextToBot = new Button();
+            btnResumeBuilder = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -91,6 +93,8 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.Turquoise;
+            splitContainer1.Panel2.Controls.Add(label2);
+            splitContainer1.Panel2.Controls.Add(btnResumeBuilder);
             splitContainer1.Panel2.Controls.Add(cbIsBotMuted);
             splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
@@ -375,6 +379,29 @@
             btnSubmitTextToBot.UseVisualStyleBackColor = false;
             btnSubmitTextToBot.Click += btnSubmitTextToBot_Click;
             // 
+            // btnResumeBuilder
+            // 
+            btnResumeBuilder.BackgroundImage = Properties.Resources.resume_icon_png_1_2281174287;
+            btnResumeBuilder.BackgroundImageLayout = ImageLayout.Stretch;
+            btnResumeBuilder.ImageAlign = ContentAlignment.MiddleLeft;
+            btnResumeBuilder.Location = new Point(513, 53);
+            btnResumeBuilder.Name = "btnResumeBuilder";
+            btnResumeBuilder.Size = new Size(94, 111);
+            btnResumeBuilder.TabIndex = 8;
+            btnResumeBuilder.TextAlign = ContentAlignment.BottomCenter;
+            btnResumeBuilder.UseVisualStyleBackColor = true;
+            btnResumeBuilder.Click += btnGotoResumeForm_Click_1;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(513, 30);
+            label2.Name = "label2";
+            label2.Size = new Size(102, 19);
+            label2.TabIndex = 9;
+            label2.Text = "Build a Resume";
+            // 
             // AffinityMainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -431,5 +458,7 @@
         private ComboBox cbChatCategory;
         private CheckBox cbIsBotMuted;
         private Button btnNewsPictureButton;
+        private Button btnResumeBuilder;
+        private Label label2;
     }
 }
