@@ -124,11 +124,20 @@
   <data name="Affinity World Thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Affinity World Thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Affinity VR Logo (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Affinity VR Logo (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PDF-icon-1-2186195913" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF-icon-1-2186195913.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kentucky-map-icon-414223723" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kentucky-map-icon-414223723.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resume-icon-png-1-2281174287" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resume-icon-png-1-2281174287.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Affinity VR Logo (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Affinity VR Logo (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUBMIT-BUTTON-4072490582" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUBMIT-BUTTON-4072490582.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="key-icon-png-20-2507228831" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\key-icon-png-20-2507228831.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +145,7 @@
   <data name="Affinity VR Logo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Affinity VR Logo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SUBMIT-BUTTON-4072490582" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SUBMIT-BUTTON-4072490582.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="word icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\word icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

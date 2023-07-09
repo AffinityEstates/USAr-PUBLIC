@@ -24,6 +24,7 @@
     <PackageReference Include="ChatGPT.Net" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
     <PackageReference Include="System.Speech" Version="7.0.0" />
   </ItemGroup>
 

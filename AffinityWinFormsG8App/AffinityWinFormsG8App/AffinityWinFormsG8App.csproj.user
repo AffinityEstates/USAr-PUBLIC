@@ -13,6 +13,9 @@
     <Compile Update="Forms\ConfigAPIKeyModalForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\ResumeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Forms\AffinityMainForm.resx">
