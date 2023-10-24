@@ -42,6 +42,8 @@
             btnKy = new Button();
             button3 = new Button();
             button1 = new Button();
+            label2 = new Label();
+            btnResumeBuilder = new Button();
             cbIsBotMuted = new CheckBox();
             panel1 = new Panel();
             btnGotoAdmin = new Button();
@@ -54,8 +56,6 @@
             btnTenn = new Button();
             tbChatInput = new TextBox();
             btnSubmitTextToBot = new Button();
-            btnResumeBuilder = new Button();
-            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -76,7 +76,7 @@
             // 
             // splitContainer1.Panel1
             // 
-            splitContainer1.Panel1.BackgroundImage = Properties.Resources.Affinity_VR_Logo__1_;
+            splitContainer1.Panel1.BackColor = Color.PowderBlue;
             splitContainer1.Panel1.Controls.Add(btnNewsPictureButton);
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Panel1.Controls.Add(btnIllinoiis);
@@ -245,6 +245,29 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(513, 30);
+            label2.Name = "label2";
+            label2.Size = new Size(102, 19);
+            label2.TabIndex = 9;
+            label2.Text = "Build a Resume";
+            // 
+            // btnResumeBuilder
+            // 
+            btnResumeBuilder.BackgroundImage = Properties.Resources.resume_icon_png_1_2281174287;
+            btnResumeBuilder.BackgroundImageLayout = ImageLayout.Stretch;
+            btnResumeBuilder.ImageAlign = ContentAlignment.MiddleLeft;
+            btnResumeBuilder.Location = new Point(513, 53);
+            btnResumeBuilder.Name = "btnResumeBuilder";
+            btnResumeBuilder.Size = new Size(94, 111);
+            btnResumeBuilder.TabIndex = 8;
+            btnResumeBuilder.TextAlign = ContentAlignment.BottomCenter;
+            btnResumeBuilder.UseVisualStyleBackColor = true;
+            btnResumeBuilder.Click += btnGotoResumeForm_Click_1;
+            // 
             // cbIsBotMuted
             // 
             cbIsBotMuted.AutoSize = true;
@@ -378,29 +401,6 @@
             btnSubmitTextToBot.Text = "Submit to ChatGPT";
             btnSubmitTextToBot.UseVisualStyleBackColor = false;
             btnSubmitTextToBot.Click += btnSubmitTextToBot_Click;
-            // 
-            // btnResumeBuilder
-            // 
-            btnResumeBuilder.BackgroundImage = Properties.Resources.resume_icon_png_1_2281174287;
-            btnResumeBuilder.BackgroundImageLayout = ImageLayout.Stretch;
-            btnResumeBuilder.ImageAlign = ContentAlignment.MiddleLeft;
-            btnResumeBuilder.Location = new Point(513, 53);
-            btnResumeBuilder.Name = "btnResumeBuilder";
-            btnResumeBuilder.Size = new Size(94, 111);
-            btnResumeBuilder.TabIndex = 8;
-            btnResumeBuilder.TextAlign = ContentAlignment.BottomCenter;
-            btnResumeBuilder.UseVisualStyleBackColor = true;
-            btnResumeBuilder.Click += btnGotoResumeForm_Click_1;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(513, 30);
-            label2.Name = "label2";
-            label2.Size = new Size(102, 19);
-            label2.TabIndex = 9;
-            label2.Text = "Build a Resume";
             // 
             // AffinityMainForm
             // 

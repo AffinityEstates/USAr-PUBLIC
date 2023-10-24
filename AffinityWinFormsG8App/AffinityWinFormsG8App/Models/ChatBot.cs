@@ -18,6 +18,7 @@ namespace AffinityWinFormsG8App.Models
             var bot = new ChatGpt(key);
             ChatBotResponse = String.Empty;
 
+            // TODO: This is where the call is callin' too much and causing an exception
             var response = await bot.Ask(input);
             Console.WriteLine(response);
 
