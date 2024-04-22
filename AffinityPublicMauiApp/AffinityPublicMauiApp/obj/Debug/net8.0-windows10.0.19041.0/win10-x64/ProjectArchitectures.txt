@@ -1,0 +1,1 @@
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\AffinityPublicMauiApp.csproj;x64
