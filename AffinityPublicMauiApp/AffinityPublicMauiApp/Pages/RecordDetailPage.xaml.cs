@@ -6,7 +6,7 @@ public partial class RecordDetailPage : ContentPage
 {
 	public RecordDetailPage()
 	{
-		// InitializeComponent();
+		InitializeComponent();
 
 		var recordDetailRow = new UserDetailViewModel() { CanEmail = true,
 			UserEmail = "TestEmail@email.com",
