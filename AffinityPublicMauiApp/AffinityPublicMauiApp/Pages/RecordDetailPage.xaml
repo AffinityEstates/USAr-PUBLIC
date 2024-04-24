@@ -8,11 +8,14 @@
              >
     <TableView Intent="Data">
         <TableRoot>
-            <TableSection Title="Basic Information">
+            <TableSection Title="Affinity App Information">
+                <TextCell Text="Welcome to Affinity! Enter your info to join notifications" />
                 <TextCell Text="Email" Detail="{Binding UserEmail}"/>
                 <TextCell Text="Name" Detail="{Binding UserName}" />
                 <SwitchCell Text="Can Email?" On="{Binding CanEmail}"/>
+                
             </TableSection>
+            
         </TableRoot>
     </TableView>
 </ContentPage>
