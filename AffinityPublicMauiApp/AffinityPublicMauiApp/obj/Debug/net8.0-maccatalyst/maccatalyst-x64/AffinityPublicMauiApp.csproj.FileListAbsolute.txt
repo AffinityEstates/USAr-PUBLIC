@@ -299,3 +299,4 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AffinityPublicMauiApp.pdb
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\AffinityPublicMauiApp.genruntimeconfig.cache
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\AffinityPublicMauiApp.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll

@@ -1037,3 +1037,7 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\indydrone.jpg
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-android\resizetizer\r\drawable\vrimage.png
