@@ -13,7 +13,9 @@
                 <TextCell Text="Email" Detail="{Binding UserEmail}"/>
                 <TextCell Text="Name" Detail="{Binding UserName}" />
                 <SwitchCell Text="Can Email?" On="{Binding CanEmail}"/>
-                
+                <ImageCell Text="Drone Projects" Detail="Check out Affinity Drone Projects" ImageSource="IndyDrone.jpg" />
+                <ImageCell Text="VR Projects" Detail="Check out Affinity VR Projects" ImageSource="vrimage.jpg" />
+
             </TableSection>
             
         </TableRoot>

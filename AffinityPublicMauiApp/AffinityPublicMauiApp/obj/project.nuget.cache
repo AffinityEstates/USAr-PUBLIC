@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fB/5D2zszzflewQyh+yV6MJ2J8M89GFDwmUtPdaSFLD+omhglBGWga9lvg5WiGHBmRI11X3Cfle0we8uCfak7A==",
+  "dgSpecHash": "oOZPmgcqKItALXieAsr+b6wiNzZx9Rn3SEH5F7a/E71+3kWGN2jqNa8aAhcIp1vQPk+6T465N+6NmUqI/S7aJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duran\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\duran\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
