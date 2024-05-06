@@ -11,10 +11,13 @@
             <TableSection Title="Affinity App Information">
                 <TextCell Text="Welcome to Affinity! Enter your info to join notifications" />
                 <TextCell Text="Email" Detail="{Binding UserEmail}"/>
+                <EntryCell Label="Enter email" />
                 <TextCell Text="Name" Detail="{Binding UserName}" />
+                <EntryCell Label="Enter name" />
                 <SwitchCell Text="Can Email?" On="{Binding CanEmail}"/>
                 <ImageCell Text="Drone Projects" Detail="Check out Affinity Drone Projects" ImageSource="IndyDrone.jpg" />
                 <ImageCell Text="VR Projects" Detail="Check out Affinity VR Projects" ImageSource="vrimage.jpg" />
+                
 
             </TableSection>
             
