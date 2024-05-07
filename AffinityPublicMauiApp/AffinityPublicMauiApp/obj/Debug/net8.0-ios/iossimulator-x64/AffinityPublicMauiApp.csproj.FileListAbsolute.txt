@@ -1,6 +1,7 @@
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.runtimeconfig.json
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.pdb
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -259,6 +260,7 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
@@ -280,6 +282,8 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\vrimage.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\indydrone.jpg
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
@@ -311,4 +315,3 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.pdb
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.genruntimeconfig.cache
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\ref\AffinityPublicMauiApp.dll
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
