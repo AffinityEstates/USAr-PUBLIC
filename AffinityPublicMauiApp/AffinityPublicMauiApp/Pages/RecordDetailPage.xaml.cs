@@ -15,4 +15,9 @@ public partial class RecordDetailPage : ContentPage
 
 		BindingContext = recordDetailRow;
 	}
+
+    void btnDroneOnClick(object sender, EventArgs e)
+    {
+
+    }
 }

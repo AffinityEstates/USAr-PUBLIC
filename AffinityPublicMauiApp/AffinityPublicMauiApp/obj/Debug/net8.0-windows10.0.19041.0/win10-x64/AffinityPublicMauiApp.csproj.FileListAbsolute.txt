@@ -6,6 +6,7 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AffinityPublicMauiApp.pdb
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -97,11 +98,8 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vrimage.scale-100.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\indydrone.scale-100.jpg
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -148,6 +146,11 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AffinityPublicMauiApp.AssemblyInfoInputs.cache
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AffinityPublicMauiApp.AssemblyInfo.cs
@@ -176,4 +179,3 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
