@@ -8,5 +8,24 @@
             Text="Affinity Drone Projects!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <CarouselView IndicatorView="droneIndicatorView">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Drone1</x:String>
+                    <x:String>Drone2</x:String>
+                    <x:String>Drone3</x:String>                    
+                </x:Array>
+            </CarouselView.ItemsSource>
+        </CarouselView>
+        <!-- Review these:
+        
+        https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/carouselview/populate-data?view=net-maui-8.0
+        https://www.youtube.com/watch?v=kw9-_GLruUg
+        
+        -->
+        <IndicatorView x:Name="droneIndicatorView" Margin="5">
+            
+        </IndicatorView>
+            
     </VerticalStackLayout>
 </ContentPage>
