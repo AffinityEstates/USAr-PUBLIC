@@ -314,3 +314,4 @@ C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublic
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.pdb
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\AffinityPublicMauiApp.genruntimeconfig.cache
 C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\ref\AffinityPublicMauiApp.dll
+C:\Users\duran\source\repos\USAr-PUBLIC-DEW\AffinityPublicMauiApp\AffinityPublicMauiApp\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature

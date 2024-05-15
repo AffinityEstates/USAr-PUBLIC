@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\pages\\dronedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\pages\\dronedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\affinitypublicmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\affinitypublicmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\pages\\dronedetailpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\pages\\dronedetailpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\pages\\recorddetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\pages\\recorddetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\pages\\dronedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\pages\\dronedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\pages\\recorddetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|c:\\users\\duran\\source\\repos\\usar-public-dew\\affinitypublicmauiapp\\affinitypublicmauiapp\\affinitypublicmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{244A2B74-F6AE-4634-B18F-8B919E8F8964}|AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj|solutionrelative:affinitypublicmauiapp\\affinitypublicmauiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DroneDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Pages\\DroneDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Pages\\DroneDetailPage.xaml.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RecordDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Pages\\RecordDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Pages\\RecordDetailPage.xaml.cs",
@@ -87,12 +87,11 @@
               "RelativeToolTip": "AffinityPublicMauiApp\\Pages\\RecordDetailPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:42:21.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T21:42:21.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DroneDetailVM.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Models\\ViewModels\\DroneDetailVM.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Models\\ViewModels\\DroneDetailVM.cs",
@@ -104,31 +103,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DroneDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Pages\\DroneDetailPage.xaml",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Pages\\DroneDetailPage.xaml",
               "ToolTip": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Pages\\DroneDetailPage.xaml",
               "RelativeToolTip": "AffinityPublicMauiApp\\Pages\\DroneDetailPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-14T22:00:40.452Z"
+              "WhenOpened": "2024-05-14T22:00:40.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "AffinityPublicMauiApp.csproj",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj",
               "ToolTip": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj",
               "RelativeToolTip": "AffinityPublicMauiApp\\AffinityPublicMauiApp.csproj",
-              "ViewState": "AQIAABsAAAAAAAAAAAAqwCcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-23T21:55:19.431Z"
+              "WhenOpened": "2024-04-23T21:55:19.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\App.xaml.cs",
@@ -140,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RecordDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Pages\\RecordDetailPage.xaml",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Pages\\RecordDetailPage.xaml",
@@ -152,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserDetailViewModel.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Models\\ViewModels\\UserDetailViewModel.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Models\\ViewModels\\UserDetailViewModel.cs",
@@ -164,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TextCellCommand.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Models\\TextCellCommand.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Models\\TextCellCommand.cs",
@@ -176,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AffinityItems.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Models\\AffinityItems.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Models\\AffinityItems.cs",
@@ -188,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DBModel.cs",
               "DocumentMoniker": "C:\\Users\\duran\\source\\repos\\USAr-PUBLIC-DEW\\AffinityPublicMauiApp\\AffinityPublicMauiApp\\Models\\DBModel.cs",
               "RelativeDocumentMoniker": "AffinityPublicMauiApp\\Models\\DBModel.cs",
