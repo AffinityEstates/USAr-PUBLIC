@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using AffinityPublicMauiApp.Models.ViewModels;
+using AffinityPublicMauiApp.Pages;
+using Microsoft.Extensions.Logging;
 
 namespace AffinityPublicMauiApp
 {
@@ -17,6 +19,11 @@ namespace AffinityPublicMauiApp
 
 #if DEBUG
     		builder.Logging.AddDebug();
+            builder.Services.AddSingleton<RecordDetailPage>();
+            builder.Services.AddSingleton<UserDetailViewModel>();
+
+            builder.Services.AddTransient<DroneDetailPage>();
+            builder.Services.AddTransient<DroneDetailVM>();
 #endif
 
             return builder.Build();
