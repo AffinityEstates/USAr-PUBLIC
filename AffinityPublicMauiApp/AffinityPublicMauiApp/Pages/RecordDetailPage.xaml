@@ -15,7 +15,10 @@
                 <TextCell Text="Name" Detail="{Binding UserName}" />
                 <EntryCell Label="Enter name" />
                 <SwitchCell Text="Can Email?" On="{Binding CanEmail}"/>
-                <ImageCell Text="Drone Projects" Detail="Check out Affinity Drone Projects" ImageSource="IndyDrone.jpg" Command="{Binding TextCellCommand}" />
+        
+                <ImageCell Text="Drone Projects" Detail="Check out Affinity Drone Projects" ImageSource="IndyDrone.jpg" Command="{Binding TextCellCommand}" >
+                    <!--Navigate tutorial: https://www.youtube.com/watch?v=ddmZ6k1GIkM-->
+                </ImageCell>
                 <ImageCell Text="VR Projects" Detail="Check out Affinity VR Projects" ImageSource="vrimage.jpg" />
                 
 
