@@ -7,29 +7,15 @@ using System.Windows.Input;
 
 namespace AffinityPublicMauiApp.ViewModels
 {
-    public class TextCellCommand : ICommand
+    public class CommandViewModel
     {
-        event EventHandler? ICommand.CanExecuteChanged
-        {
-            add
-            {
-                throw new NotImplementedException();
-            }
+        public ICommand TextCellCommand => new Command(ClickEvent);
 
-            remove
-            {
-                throw new NotImplementedException();
-            }
+        private void ClickEvent(object o)
+        {
+            Console.WriteLine("in Click event");
         }
 
-        bool ICommand.CanExecute(object? parameter)
-        {
-            throw new NotImplementedException();
-        }
 
-        void ICommand.Execute(object? parameter)
-        {
-            // Go to form
-        }
     }
 }
