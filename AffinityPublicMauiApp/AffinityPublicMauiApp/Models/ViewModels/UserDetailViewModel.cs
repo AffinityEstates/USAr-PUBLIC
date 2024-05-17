@@ -10,6 +10,6 @@ namespace AffinityPublicMauiApp.Models.ViewModels
         public string? UserEmail { get; set; }
         public bool CanEmail { get; set; }
 
-        public TextCellCommand? TextCellCommand { get; set; }
+        public CommandViewModel? TextCellCommand { get; set; }
     }
 }
