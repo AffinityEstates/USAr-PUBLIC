@@ -17,13 +17,15 @@ namespace AffinityPublicMauiApp
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
             builder.Services.AddSingleton<RecordDetailPage>();
             builder.Services.AddSingleton<UserDetailViewModel>();
 
             builder.Services.AddTransient<DroneDetailPage>();
             builder.Services.AddTransient<DroneDetailVM>();
+
+#if DEBUG
+            builder.Logging.AddDebug();
+            
 #endif
 
             return builder.Build();

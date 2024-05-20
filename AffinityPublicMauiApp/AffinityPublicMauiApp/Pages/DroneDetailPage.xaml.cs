@@ -4,8 +4,10 @@ namespace AffinityPublicMauiApp.Pages;
 
 public partial class DroneDetailPage : ContentPage
 {
-	public DroneDetailPage()
+	public DroneDetailPage(DroneDetailVM vm)
 	{
         InitializeComponent();
+
+		BindingContext = vm;
 	}
 }

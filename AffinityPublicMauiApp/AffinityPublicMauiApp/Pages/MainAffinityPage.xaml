@@ -28,5 +28,4 @@
         </TableRoot>
        
     </TableView>
-    <!-- <Button Text="Go to Drone" Clicked="btnDroneOnClick" /> -->
 </ContentPage>
