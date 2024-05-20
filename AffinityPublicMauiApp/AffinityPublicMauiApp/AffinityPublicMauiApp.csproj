@@ -69,10 +69,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\MainAffinityPage.xaml.cs">
+	    <DependentUpon>MainAffinityPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Pages\DroneDetailPage.xaml">
 	    <Generator></Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\RecordDetailPage.xaml">
+	  <MauiXaml Update="Pages\MainAffinityPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

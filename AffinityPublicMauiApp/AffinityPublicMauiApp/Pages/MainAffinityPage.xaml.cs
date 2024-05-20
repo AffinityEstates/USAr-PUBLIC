@@ -10,8 +10,7 @@ public partial class RecordDetailPage : ContentPage
 
 		var recordDetailRow = new UserDetailViewModel() { CanEmail = true,
 			UserEmail = "TestEmail@email.com",
-			UserName = "TestUser",
-			TextCellCommand = new ViewModels.CommandViewModel()
+			UserName = "TestUser" 
 		};
 
 		BindingContext = recordDetailRow;
