@@ -5,7 +5,7 @@
              x:Class="AffinityPublicMauiApp.Pages.RecordDetailPage"
              Title="Record Detail Page"
              xmlns:vm="clr-namespace:AffinityPublicMauiApp.Models.ViewModels"
-             x:DataType="vm:UserDetailViewModel"
+             x:DataType="vm:MainPageViewModel"
              >
     <TableView Intent="Data">
         <TableRoot>

@@ -4,9 +4,9 @@ using System.Windows.Input;
 
 namespace AffinityPublicMauiApp.Models.ViewModels
 {
-    internal class UserDetailViewModel : ObservableObject
+    internal class MainPageViewModel : ObservableObject
     {
-        public UserDetailViewModel() {
+        public MainPageViewModel() {
             TextCellCommand = new Command(TextCommand);
         
         }
