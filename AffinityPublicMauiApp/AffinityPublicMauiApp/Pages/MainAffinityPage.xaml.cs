@@ -8,7 +8,7 @@ public partial class RecordDetailPage : ContentPage
 	{
 		InitializeComponent();
 
-		var recordDetailRow = new UserDetailViewModel() { CanEmail = true,
+		var recordDetailRow = new MainPageViewModel() { CanEmail = true,
 			UserEmail = "TestEmail@email.com",
 			UserName = "TestUser" 
 		};

@@ -18,7 +18,7 @@ namespace AffinityPublicMauiApp
                 });
 
             builder.Services.AddSingleton<RecordDetailPage>();
-            builder.Services.AddSingleton<UserDetailViewModel>();
+            builder.Services.AddSingleton<MainPageViewModel>();
 
             builder.Services.AddTransient<DroneDetailPage>();
             builder.Services.AddTransient<DroneDetailVM>();
