@@ -11,14 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.affinitypublicmauiapp")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.affinity.affinitypublicmauiapp")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6355c088bdebd314ae8abd9670cb20d5eb56dde7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6dc9dc03ec40febfee8f723dabca1ec319bd4df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
