@@ -8,6 +8,9 @@ public partial class DroneDetailPage : ContentPage
 	{
         InitializeComponent();
 
-		BindingContext = vm;
+		BindingContext = new DroneDetailVM()
+		{
+
+		};
 	}
 }

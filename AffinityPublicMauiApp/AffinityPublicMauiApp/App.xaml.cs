@@ -8,7 +8,8 @@ namespace AffinityPublicMauiApp
         {
             InitializeComponent();
 
-            MainPage = new RecordDetailPage();
+            //MainPage = new RecordDetailPage();
+            MainPage = new AppShell();
         }
     }
 }

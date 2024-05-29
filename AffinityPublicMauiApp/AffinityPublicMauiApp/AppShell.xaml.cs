@@ -9,6 +9,7 @@ namespace AffinityPublicMauiApp
             InitializeComponent();
 
             Routing.RegisterRoute(nameof(DroneDetailPage), typeof(DroneDetailPage));
+            Routing.RegisterRoute(nameof(RecordDetailPage), typeof(RecordDetailPage));
         }
     }
 }
