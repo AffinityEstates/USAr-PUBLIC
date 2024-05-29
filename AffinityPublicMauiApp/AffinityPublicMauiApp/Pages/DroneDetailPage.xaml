@@ -4,7 +4,7 @@
              x:Class="AffinityPublicMauiApp.Pages.DroneDetailPage"
              xmlns:vm="clr-namespace:AffinityPublicMauiApp.Models.ViewModels"
              x:DataType="vm:DroneDetailVM"
-             Title="DroneDetailPage">
+             Title="Drone Project Page">
 
     <!-- xmlns:vm="clr-namespace:AffinityPublicMauiApp.Models.ViewModels"
 x:DataType="vm:MainPageViewModel"-->
@@ -13,7 +13,7 @@ x:DataType="vm:MainPageViewModel"-->
             Text="Affinity Drone Projects!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <CarouselView IndicatorView="droneIndicatorView">
+        <CarouselView IndicatorView="droneIndicatorView" >
             <CarouselView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Drone1</x:String>
