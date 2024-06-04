@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3cca592978fc26fd37c440a9493668b7e2afa0db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a469823962c2c6efcc9f4923c543032ef068baf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AffinityPublicMauiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
