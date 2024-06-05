@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AffinityPublicMauiApp.Pages.DroneDetailPage"
              xmlns:vm="clr-namespace:AffinityPublicMauiApp.Models.ViewModels"
-             x:DataType="vm:DroneDetailVM"
+             x:DataType="vm:DroneDetailVMWrapper"
              Title="Drone Project Page">
 
     <!-- xmlns:vm="clr-namespace:AffinityPublicMauiApp.Models.ViewModels"
@@ -13,13 +13,13 @@ x:DataType="vm:MainPageViewModel"-->
             Text="Affinity Drone Projects!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <CarouselView >
+        <CarouselView ItemsSource="{Binding Items}">
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout>
                     <Frame BackgroundColor="Gray" HasShadow="True" BorderColor="DarkGray" HorizontalOptions="CenterAndExpand">
                             <StackLayout>
-                                <Image Source="{Binding ImageURL}" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"></Image>
+                                <Image Source="{Binding droneItem.ImageURL}" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"></Image>
                             </StackLayout>
                     </Frame>
                     </StackLayout>

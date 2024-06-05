@@ -13,8 +13,17 @@ namespace AffinityPublicMauiApp.Models.ViewModels
         {
             
         }
-        public String Name { get; set; }
-        public String ImageURL { get; set; }
+        public String? Name { get; set; }
+        public String? ImageURL { get; set; }
 
+    }
+
+    public class DroneDetailVMWrapper : ObservableObject
+    {
+        public DroneDetailVMWrapper() { }
+
+        public List<DroneDetailVM> Items { get; set; }
+
+        public DroneDetailVM droneItem { get; set; }
     }
 }
